@@ -1,0 +1,431 @@
+[0.000000] (-) TimerEvent: {}
+[0.007963] (apriltag_msgs) JobQueued: {'identifier': 'apriltag_msgs', 'dependencies': OrderedDict()}
+[0.008820] (py_pysub) JobQueued: {'identifier': 'py_pysub', 'dependencies': OrderedDict()}
+[0.010133] (apriltag_ros) JobQueued: {'identifier': 'apriltag_ros', 'dependencies': OrderedDict([('apriltag_msgs', '/home/april/workAreas/apriltag_ws/install/apriltag_msgs')])}
+[0.011040] (cam_subscriber) JobQueued: {'identifier': 'cam_subscriber', 'dependencies': OrderedDict([('apriltag_msgs', '/home/april/workAreas/apriltag_ws/install/apriltag_msgs')])}
+[0.015927] (apriltag_msgs) JobStarted: {'identifier': 'apriltag_msgs'}
+[0.100744] (-) TimerEvent: {}
+[0.113233] (py_pysub) JobStarted: {'identifier': 'py_pysub'}
+[0.201635] (-) TimerEvent: {}
+[0.229998] (apriltag_msgs) JobProgress: {'identifier': 'apriltag_msgs', 'progress': 'cmake'}
+[0.235011] (apriltag_msgs) JobProgress: {'identifier': 'apriltag_msgs', 'progress': 'build'}
+[0.239217] (apriltag_msgs) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/april/workAreas/apriltag_ws/build/apriltag_msgs', '--', '-j4', '-l4'], 'cwd': '/home/april/workAreas/apriltag_ws/build/apriltag_msgs', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'april'), ('SSH_AGENT_PID', '1785'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/april/workAreas/apriltag_ws/install/apriltag_ros/lib:/home/april/workAreas/apriltag_ws/install/apriltag_msgs/lib:/home/april/rosApril_ws/install/apriltag_ros/lib:/home/april/rosApril_ws/install/apriltag_msgs/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/april'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1611'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/april/workAreas/apriltag_ws/install:/home/april/rosApril_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'april'), ('JOURNAL_STREAM', '9:40138'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'april'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/april/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/pi-april:@/tmp/.ICE-unix/1839,unix/pi-april:/tmp/.ICE-unix/1839'), ('INVOCATION_ID', 'e26e6371b2874b3daa94032fb2e82faa'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/e74708b9_0f41_4243_88db_75bd0c3ae2c9'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.80'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/april/workAreas/apriltag_ws/install/py_pysub:/home/april/workAreas/apriltag_ws/install/cam_subscriber:/home/april/workAreas/apriltag_ws/install/apriltag_ros:/home/april/workAreas/apriltag_ws/install/apriltag_msgs:/home/april/rosApril_ws/install/py_pysub:/home/april/rosApril_ws/install/cam_subscriber:/home/april/rosApril_ws/install/apriltag_ros:/home/april/rosApril_ws/install/apriltag_msgs:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/april/workAreas/apriltag_ws/build/apriltag_msgs'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/april/workAreas/apriltag_ws/install/py_pysub/lib/python3.8/site-packages:/home/april/workAreas/apriltag_ws/install/cam_subscriber/lib/python3.8/site-packages:/home/april/workAreas/apriltag_ws/install/apriltag_msgs/lib/python3.8/site-packages:/home/april/rosApril_ws/install/py_pysub/lib/python3.8/site-packages:/home/april/rosApril_ws/install/cam_subscriber/lib/python3.8/site-packages:/home/april/rosApril_ws/install/apriltag_msgs/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/april/workAreas/apriltag_ws/install/apriltag_ros:/home/april/workAreas/apriltag_ws/install/apriltag_msgs:/home/april/rosApril_ws/install/apriltag_ros:/home/april/rosApril_ws/install/apriltag_msgs:/home/april/workAreas/apriltag_ws/install/py_pysub:/home/april/workAreas/apriltag_ws/install/cam_subscriber:/home/april/rosApril_ws/install/py_pysub:/home/april/rosApril_ws/install/cam_subscriber:/opt/ros/foxy')]), 'shell': False}
+[0.305192] (-) TimerEvent: {}
+[0.406407] (-) TimerEvent: {}
+[0.507793] (-) TimerEvent: {}
+[0.609390] (-) TimerEvent: {}
+[0.710850] (-) TimerEvent: {}
+[0.812142] (-) TimerEvent: {}
+[0.844082] (apriltag_msgs) StdoutLine: {'line': b'[  2%] Built target apriltag_msgs__cpp\n'}
+[0.912333] (-) TimerEvent: {}
+[1.013149] (-) TimerEvent: {}
+[1.114165] (-) TimerEvent: {}
+[1.215017] (-) TimerEvent: {}
+[1.221767] (apriltag_msgs) StdoutLine: {'line': b'[ 12%] Built target apriltag_msgs__rosidl_generator_c\n'}
+[1.315263] (-) TimerEvent: {}
+[1.422394] (-) TimerEvent: {}
+[1.446468] (apriltag_msgs) StdoutLine: {'line': b'[ 23%] Built target apriltag_msgs__rosidl_typesupport_introspection_cpp\n'}
+[1.522650] (-) TimerEvent: {}
+[1.624254] (-) TimerEvent: {}
+[1.725453] (-) TimerEvent: {}
+[1.801817] (apriltag_msgs) StdoutLine: {'line': b'[ 34%] Built target apriltag_msgs__rosidl_typesupport_introspection_c\n'}
+[1.825713] (-) TimerEvent: {}
+[1.926866] (-) TimerEvent: {}
+[2.013311] (apriltag_msgs) StdoutLine: {'line': b'[ 44%] Built target apriltag_msgs__rosidl_typesupport_c\n'}
+[2.027078] (-) TimerEvent: {}
+[2.128692] (-) TimerEvent: {}
+[2.230561] (-) TimerEvent: {}
+[2.332989] (-) TimerEvent: {}
+[2.348611] (apriltag_msgs) StdoutLine: {'line': b'[ 55%] Built target apriltag_msgs__rosidl_typesupport_fastrtps_cpp\n'}
+[2.433326] (-) TimerEvent: {}
+[2.539522] (-) TimerEvent: {}
+[2.565004] (apriltag_msgs) StdoutLine: {'line': b'[ 65%] Built target apriltag_msgs__rosidl_typesupport_cpp\n'}
+[2.639870] (-) TimerEvent: {}
+[2.744001] (-) TimerEvent: {}
+[2.869469] (-) TimerEvent: {}
+[2.974026] (-) TimerEvent: {}
+[2.988291] (apriltag_msgs) StdoutLine: {'line': b'[ 76%] Built target apriltag_msgs__rosidl_typesupport_fastrtps_c\n'}
+[3.074190] (-) TimerEvent: {}
+[3.175415] (-) TimerEvent: {}
+[3.222895] (apriltag_msgs) StdoutLine: {'line': b'[ 76%] Built target apriltag_msgs\n'}
+[3.276201] (-) TimerEvent: {}
+[3.378423] (-) TimerEvent: {}
+[3.391064] (apriltag_msgs) StdoutLine: {'line': b'[ 78%] Built target apriltag_msgs__py\n'}
+[3.478729] (-) TimerEvent: {}
+[3.580790] (-) TimerEvent: {}
+[3.683306] (-) TimerEvent: {}
+[3.760233] (apriltag_msgs) StdoutLine: {'line': b'[ 87%] Built target apriltag_msgs__python\n'}
+[3.783671] (-) TimerEvent: {}
+[3.892742] (-) TimerEvent: {}
+[4.000955] (-) TimerEvent: {}
+[4.103278] (-) TimerEvent: {}
+[4.170554] (apriltag_msgs) StdoutLine: {'line': b'[ 91%] Built target apriltag_msgs__rosidl_typesupport_introspection_c__pyext\n'}
+[4.204059] (-) TimerEvent: {}
+[4.308725] (-) TimerEvent: {}
+[4.413795] (-) TimerEvent: {}
+[4.464324] (apriltag_msgs) StdoutLine: {'line': b'[ 95%] Built target apriltag_msgs__rosidl_typesupport_c__pyext\n'}
+[4.514157] (-) TimerEvent: {}
+[4.617300] (-) TimerEvent: {}
+[4.718311] (-) TimerEvent: {}
+[4.819780] (-) TimerEvent: {}
+[4.890578] (apriltag_msgs) StdoutLine: {'line': b'[100%] Built target apriltag_msgs__rosidl_typesupport_fastrtps_c__pyext\n'}
+[4.919994] (-) TimerEvent: {}
+[5.004672] (apriltag_msgs) CommandEnded: {'returncode': 0}
+[5.022565] (-) TimerEvent: {}
+[5.123523] (-) TimerEvent: {}
+[5.228041] (-) TimerEvent: {}
+[5.328896] (-) TimerEvent: {}
+[5.430224] (-) TimerEvent: {}
+[5.532194] (-) TimerEvent: {}
+[5.636054] (-) TimerEvent: {}
+[5.737198] (-) TimerEvent: {}
+[5.838143] (-) TimerEvent: {}
+[5.943401] (-) TimerEvent: {}
+[6.044283] (-) TimerEvent: {}
+[6.146358] (-) TimerEvent: {}
+[6.248054] (-) TimerEvent: {}
+[6.349172] (-) TimerEvent: {}
+[6.450335] (-) TimerEvent: {}
+[6.552446] (-) TimerEvent: {}
+[6.656244] (-) TimerEvent: {}
+[6.758205] (-) TimerEvent: {}
+[6.865770] (-) TimerEvent: {}
+[6.966903] (-) TimerEvent: {}
+[7.011301] (py_pysub) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../../build/py_pysub', 'build', '--build-base', '/home/april/workAreas/apriltag_ws/build/py_pysub/build', 'install', '--record', '/home/april/workAreas/apriltag_ws/build/py_pysub/install.log', '--install-scripts', '$base/lib/py_pysub', '--single-version-externally-managed'], 'cwd': '/home/april/workAreas/apriltag_ws/src/py_pysub/py_pysub', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'april', 'SSH_AGENT_PID': '1785', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/april/workAreas/apriltag_ws/install/apriltag_ros/lib:/home/april/workAreas/apriltag_ws/install/apriltag_msgs/lib:/home/april/rosApril_ws/install/apriltag_ros/lib:/home/april/rosApril_ws/install/apriltag_msgs/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib', 'HOME': '/home/april', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '1611', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'COLCON_PREFIX_PATH': '/home/april/workAreas/apriltag_ws/install:/home/april/rosApril_ws/install', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'april', 'JOURNAL_STREAM': '9:40138', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'april', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/opt/ros/foxy/bin:/home/april/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/pi-april:@/tmp/.ICE-unix/1839,unix/pi-april:/tmp/.ICE-unix/1839', 'INVOCATION_ID': 'e26e6371b2874b3daa94032fb2e82faa', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/e74708b9_0f41_4243_88db_75bd0c3ae2c9', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':1', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.80', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/april/workAreas/apriltag_ws/install/py_pysub:/home/april/workAreas/apriltag_ws/install/cam_subscriber:/home/april/workAreas/apriltag_ws/install/apriltag_ros:/home/april/workAreas/apriltag_ws/install/apriltag_msgs:/home/april/rosApril_ws/install/py_pysub:/home/april/rosApril_ws/install/cam_subscriber:/home/april/rosApril_ws/install/apriltag_ros:/home/april/rosApril_ws/install/apriltag_msgs:/opt/ros/foxy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GJS_DEBUG_OUTPUT': 'stderr', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/april/workAreas/apriltag_ws/build/py_pysub', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/april/workAreas/apriltag_ws/build/py_pysub/prefix_override:/home/april/workAreas/apriltag_ws/install/py_pysub/lib/python3.8/site-packages:/home/april/workAreas/apriltag_ws/install/py_pysub/lib/python3.8/site-packages:/home/april/workAreas/apriltag_ws/install/cam_subscriber/lib/python3.8/site-packages:/home/april/workAreas/apriltag_ws/install/apriltag_msgs/lib/python3.8/site-packages:/home/april/rosApril_ws/install/py_pysub/lib/python3.8/site-packages:/home/april/rosApril_ws/install/cam_subscriber/lib/python3.8/site-packages:/home/april/rosApril_ws/install/apriltag_msgs/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'COLCON': '1', 'VTE_VERSION': '6003', 'CMAKE_PREFIX_PATH': '/home/april/workAreas/apriltag_ws/install/apriltag_ros:/home/april/workAreas/apriltag_ws/install/apriltag_msgs:/home/april/rosApril_ws/install/apriltag_ros:/home/april/rosApril_ws/install/apriltag_msgs'}, 'shell': False}
+[7.067179] (-) TimerEvent: {}
+[7.134698] (apriltag_msgs) JobProgress: {'identifier': 'apriltag_msgs', 'progress': 'install'}
+[7.168597] (-) TimerEvent: {}
+[7.242503] (apriltag_msgs) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/april/workAreas/apriltag_ws/build/apriltag_msgs'], 'cwd': '/home/april/workAreas/apriltag_ws/build/apriltag_msgs', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'april'), ('SSH_AGENT_PID', '1785'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/april/workAreas/apriltag_ws/install/apriltag_ros/lib:/home/april/workAreas/apriltag_ws/install/apriltag_msgs/lib:/home/april/rosApril_ws/install/apriltag_ros/lib:/home/april/rosApril_ws/install/apriltag_msgs/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/april'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1611'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/april/workAreas/apriltag_ws/install:/home/april/rosApril_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'april'), ('JOURNAL_STREAM', '9:40138'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'april'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/april/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/pi-april:@/tmp/.ICE-unix/1839,unix/pi-april:/tmp/.ICE-unix/1839'), ('INVOCATION_ID', 'e26e6371b2874b3daa94032fb2e82faa'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/e74708b9_0f41_4243_88db_75bd0c3ae2c9'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.80'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/april/workAreas/apriltag_ws/install/py_pysub:/home/april/workAreas/apriltag_ws/install/cam_subscriber:/home/april/workAreas/apriltag_ws/install/apriltag_ros:/home/april/workAreas/apriltag_ws/install/apriltag_msgs:/home/april/rosApril_ws/install/py_pysub:/home/april/rosApril_ws/install/cam_subscriber:/home/april/rosApril_ws/install/apriltag_ros:/home/april/rosApril_ws/install/apriltag_msgs:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/april/workAreas/apriltag_ws/build/apriltag_msgs'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/april/workAreas/apriltag_ws/install/py_pysub/lib/python3.8/site-packages:/home/april/workAreas/apriltag_ws/install/cam_subscriber/lib/python3.8/site-packages:/home/april/workAreas/apriltag_ws/install/apriltag_msgs/lib/python3.8/site-packages:/home/april/rosApril_ws/install/py_pysub/lib/python3.8/site-packages:/home/april/rosApril_ws/install/cam_subscriber/lib/python3.8/site-packages:/home/april/rosApril_ws/install/apriltag_msgs/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/april/workAreas/apriltag_ws/install/apriltag_ros:/home/april/workAreas/apriltag_ws/install/apriltag_msgs:/home/april/rosApril_ws/install/apriltag_ros:/home/april/rosApril_ws/install/apriltag_msgs:/home/april/workAreas/apriltag_ws/install/py_pysub:/home/april/workAreas/apriltag_ws/install/cam_subscriber:/home/april/rosApril_ws/install/py_pysub:/home/april/rosApril_ws/install/cam_subscriber:/opt/ros/foxy')]), 'shell': False}
+[7.270221] (-) TimerEvent: {}
+[7.323006] (apriltag_msgs) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[7.324648] (apriltag_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/april/workAreas/apriltag_ws/install/apriltag_msgs/share/ament_index/resource_index/rosidl_interfaces/apriltag_msgs\n'}
+[7.326298] (apriltag_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/april/workAreas/apriltag_ws/install/apriltag_msgs/include/apriltag_msgs\n'}
+[7.327995] (apriltag_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/april/workAreas/apriltag_ws/install/apriltag_msgs/include/apriltag_msgs/msg\n'}
+[7.329447] (apriltag_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/april/workAreas/apriltag_ws/install/apriltag_msgs/include/apriltag_msgs/msg/april_tag_detection_array.h\n'}
+[7.330793] (apriltag_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/april/workAreas/apriltag_ws/install/apriltag_msgs/include/apriltag_msgs/msg/detail\n'}
+[7.332685] (apriltag_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/april/workAreas/apriltag_ws/install/apriltag_msgs/include/apriltag_msgs/msg/detail/april_tag_detection__functions.c\n'}
+[7.334088] (apriltag_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/april/workAreas/apriltag_ws/install/apriltag_msgs/include/apriltag_msgs/msg/detail/point__functions.h\n'}
+[7.335448] (apriltag_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/april/workAreas/apriltag_ws/install/apriltag_msgs/include/apriltag_msgs/msg/detail/april_tag_detection_array__functions.c\n'}
+[7.337144] (apriltag_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/april/workAreas/apriltag_ws/install/apriltag_msgs/include/apriltag_msgs/msg/detail/april_tag_detection__type_support.h\n'}
+[7.338671] (apriltag_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/april/workAreas/apriltag_ws/install/apriltag_msgs/include/apriltag_msgs/msg/detail/april_tag_detection_array__functions.h\n'}
+[7.340231] (apriltag_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/april/workAreas/apriltag_ws/install/apriltag_msgs/include/apriltag_msgs/msg/detail/point__struct.h\n'}
+[7.341905] (apriltag_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/april/workAreas/apriltag_ws/install/apriltag_msgs/include/apriltag_msgs/msg/detail/april_tag_detection__functions.h\n'}
+[7.355348] (apriltag_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/april/workAreas/apriltag_ws/install/apriltag_msgs/include/apriltag_msgs/msg/detail/april_tag_detection_array__struct.h\n'}
+[7.357785] (apriltag_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/april/workAreas/apriltag_ws/install/apriltag_msgs/include/apriltag_msgs/msg/detail/april_tag_detection__struct.h\n'}
+[7.359022] (apriltag_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/april/workAreas/apriltag_ws/install/apriltag_msgs/include/apriltag_msgs/msg/detail/point__type_support.h\n'}
+[7.359723] (apriltag_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/april/workAreas/apriltag_ws/install/apriltag_msgs/include/apriltag_msgs/msg/detail/point__functions.c\n'}
+[7.360355] (apriltag_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/april/workAreas/apriltag_ws/install/apriltag_msgs/include/apriltag_msgs/msg/detail/april_tag_detection_array__type_support.h\n'}
+[7.367555] (apriltag_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/april/workAreas/apriltag_ws/install/apriltag_msgs/include/apriltag_msgs/msg/rosidl_generator_c__visibility_control.h\n'}
+[7.369163] (apriltag_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/april/workAreas/apriltag_ws/install/apriltag_msgs/include/apriltag_msgs/msg/point.h\n'}
+[7.370476] (-) TimerEvent: {}
+[7.371919] (apriltag_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/april/workAreas/apriltag_ws/install/apriltag_msgs/include/apriltag_msgs/msg/april_tag_detection.h\n'}
+[7.372599] (apriltag_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/april/workAreas/apriltag_ws/install/apriltag_msgs/share/apriltag_msgs/environment/library_path.sh\n'}
+[7.373448] (apriltag_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/april/workAreas/apriltag_ws/install/apriltag_msgs/share/apriltag_msgs/environment/library_path.dsv\n'}
+[7.374030] (apriltag_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/april/workAreas/apriltag_ws/install/apriltag_msgs/lib/libapriltag_msgs__rosidl_generator_c.so\n'}
+[7.374807] (apriltag_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/april/workAreas/apriltag_ws/install/apriltag_msgs/include/apriltag_msgs\n'}
+[7.375600] (apriltag_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/april/workAreas/apriltag_ws/install/apriltag_msgs/include/apriltag_msgs/msg\n'}
+[7.376607] (apriltag_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/april/workAreas/apriltag_ws/install/apriltag_msgs/include/apriltag_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[7.377306] (apriltag_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/april/workAreas/apriltag_ws/install/apriltag_msgs/include/apriltag_msgs/msg/detail\n'}
+[7.378213] (apriltag_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/april/workAreas/apriltag_ws/install/apriltag_msgs/include/apriltag_msgs/msg/detail/april_tag_detection_array__rosidl_typesupport_fastrtps_c.h\n'}
+[7.378981] (apriltag_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/april/workAreas/apriltag_ws/install/apriltag_msgs/include/apriltag_msgs/msg/detail/april_tag_detection__rosidl_typesupport_fastrtps_c.h\n'}
+[7.379664] (apriltag_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/april/workAreas/apriltag_ws/install/apriltag_msgs/include/apriltag_msgs/msg/detail/point__rosidl_typesupport_fastrtps_c.h\n'}
+[7.380486] (apriltag_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/april/workAreas/apriltag_ws/install/apriltag_msgs/lib/libapriltag_msgs__rosidl_typesupport_fastrtps_c.so\n'}
+[7.382286] (apriltag_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/april/workAreas/apriltag_ws/install/apriltag_msgs/include/apriltag_msgs\n'}
+[7.383616] (apriltag_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/april/workAreas/apriltag_ws/install/apriltag_msgs/include/apriltag_msgs/msg\n'}
+[7.384949] (apriltag_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/april/workAreas/apriltag_ws/install/apriltag_msgs/include/apriltag_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[7.385946] (apriltag_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/april/workAreas/apriltag_ws/install/apriltag_msgs/include/apriltag_msgs/msg/detail\n'}
+[7.386580] (apriltag_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/april/workAreas/apriltag_ws/install/apriltag_msgs/include/apriltag_msgs/msg/detail/dds_fastrtps\n'}
+[7.387382] (apriltag_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/april/workAreas/apriltag_ws/install/apriltag_msgs/include/apriltag_msgs/msg/detail/april_tag_detection__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[7.388028] (apriltag_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/april/workAreas/apriltag_ws/install/apriltag_msgs/include/apriltag_msgs/msg/detail/april_tag_detection_array__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[7.389298] (apriltag_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/april/workAreas/apriltag_ws/install/apriltag_msgs/include/apriltag_msgs/msg/detail/point__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[7.390687] (apriltag_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/april/workAreas/apriltag_ws/install/apriltag_msgs/lib/libapriltag_msgs__rosidl_typesupport_fastrtps_cpp.so\n'}
+[7.391658] (apriltag_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/april/workAreas/apriltag_ws/install/apriltag_msgs/include/apriltag_msgs\n'}
+[7.392828] (apriltag_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/april/workAreas/apriltag_ws/install/apriltag_msgs/include/apriltag_msgs/msg\n'}
+[7.393434] (apriltag_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/april/workAreas/apriltag_ws/install/apriltag_msgs/include/apriltag_msgs/msg/detail\n'}
+[7.394031] (apriltag_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/april/workAreas/apriltag_ws/install/apriltag_msgs/include/apriltag_msgs/msg/detail/point__rosidl_typesupport_introspection_c.h\n'}
+[7.394840] (apriltag_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/april/workAreas/apriltag_ws/install/apriltag_msgs/include/apriltag_msgs/msg/detail/april_tag_detection_array__rosidl_typesupport_introspection_c.h\n'}
+[7.395714] (apriltag_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/april/workAreas/apriltag_ws/install/apriltag_msgs/include/apriltag_msgs/msg/detail/april_tag_detection__type_support.c\n'}
+[7.396373] (apriltag_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/april/workAreas/apriltag_ws/install/apriltag_msgs/include/apriltag_msgs/msg/detail/april_tag_detection_array__type_support.c\n'}
+[7.397210] (apriltag_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/april/workAreas/apriltag_ws/install/apriltag_msgs/include/apriltag_msgs/msg/detail/point__type_support.c\n'}
+[7.397842] (apriltag_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/april/workAreas/apriltag_ws/install/apriltag_msgs/include/apriltag_msgs/msg/detail/april_tag_detection__rosidl_typesupport_introspection_c.h\n'}
+[7.398516] (apriltag_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/april/workAreas/apriltag_ws/install/apriltag_msgs/include/apriltag_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[7.399972] (apriltag_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/april/workAreas/apriltag_ws/install/apriltag_msgs/lib/libapriltag_msgs__rosidl_typesupport_introspection_c.so\n'}
+[7.401347] (apriltag_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/april/workAreas/apriltag_ws/install/apriltag_msgs/lib/libapriltag_msgs__rosidl_typesupport_c.so\n'}
+[7.402186] (apriltag_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/april/workAreas/apriltag_ws/install/apriltag_msgs/include/apriltag_msgs\n'}
+[7.403231] (apriltag_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/april/workAreas/apriltag_ws/install/apriltag_msgs/include/apriltag_msgs/msg\n'}
+[7.404585] (apriltag_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/april/workAreas/apriltag_ws/install/apriltag_msgs/include/apriltag_msgs/msg/april_tag_detection_array.hpp\n'}
+[7.405978] (apriltag_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/april/workAreas/apriltag_ws/install/apriltag_msgs/include/apriltag_msgs/msg/detail\n'}
+[7.407371] (apriltag_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/april/workAreas/apriltag_ws/install/apriltag_msgs/include/apriltag_msgs/msg/detail/point__struct.hpp\n'}
+[7.408409] (apriltag_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/april/workAreas/apriltag_ws/install/apriltag_msgs/include/apriltag_msgs/msg/detail/point__traits.hpp\n'}
+[7.408985] (apriltag_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/april/workAreas/apriltag_ws/install/apriltag_msgs/include/apriltag_msgs/msg/detail/april_tag_detection__builder.hpp\n'}
+[7.410553] (apriltag_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/april/workAreas/apriltag_ws/install/apriltag_msgs/include/apriltag_msgs/msg/detail/april_tag_detection_array__builder.hpp\n'}
+[7.422456] (apriltag_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/april/workAreas/apriltag_ws/install/apriltag_msgs/include/apriltag_msgs/msg/detail/point__builder.hpp\n'}
+[7.423338] (apriltag_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/april/workAreas/apriltag_ws/install/apriltag_msgs/include/apriltag_msgs/msg/detail/april_tag_detection_array__traits.hpp\n'}
+[7.424164] (apriltag_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/april/workAreas/apriltag_ws/install/apriltag_msgs/include/apriltag_msgs/msg/detail/april_tag_detection__struct.hpp\n'}
+[7.425035] (apriltag_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/april/workAreas/apriltag_ws/install/apriltag_msgs/include/apriltag_msgs/msg/detail/april_tag_detection_array__struct.hpp\n'}
+[7.425565] (apriltag_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/april/workAreas/apriltag_ws/install/apriltag_msgs/include/apriltag_msgs/msg/detail/april_tag_detection__traits.hpp\n'}
+[7.426090] (apriltag_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/april/workAreas/apriltag_ws/install/apriltag_msgs/include/apriltag_msgs/msg/april_tag_detection.hpp\n'}
+[7.426589] (apriltag_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/april/workAreas/apriltag_ws/install/apriltag_msgs/include/apriltag_msgs/msg/point.hpp\n'}
+[7.427113] (apriltag_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/april/workAreas/apriltag_ws/install/apriltag_msgs/include/apriltag_msgs\n'}
+[7.427757] (apriltag_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/april/workAreas/apriltag_ws/install/apriltag_msgs/include/apriltag_msgs/msg\n'}
+[7.431559] (apriltag_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/april/workAreas/apriltag_ws/install/apriltag_msgs/include/apriltag_msgs/msg/detail\n'}
+[7.436765] (apriltag_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/april/workAreas/apriltag_ws/install/apriltag_msgs/include/apriltag_msgs/msg/detail/april_tag_detection__type_support.cpp\n'}
+[7.437450] (apriltag_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/april/workAreas/apriltag_ws/install/apriltag_msgs/include/apriltag_msgs/msg/detail/april_tag_detection_array__type_support.cpp\n'}
+[7.438033] (apriltag_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/april/workAreas/apriltag_ws/install/apriltag_msgs/include/apriltag_msgs/msg/detail/april_tag_detection_array__rosidl_typesupport_introspection_cpp.hpp\n'}
+[7.438822] (apriltag_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/april/workAreas/apriltag_ws/install/apriltag_msgs/include/apriltag_msgs/msg/detail/point__type_support.cpp\n'}
+[7.439685] (apriltag_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/april/workAreas/apriltag_ws/install/apriltag_msgs/include/apriltag_msgs/msg/detail/point__rosidl_typesupport_introspection_cpp.hpp\n'}
+[7.440447] (apriltag_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/april/workAreas/apriltag_ws/install/apriltag_msgs/include/apriltag_msgs/msg/detail/april_tag_detection__rosidl_typesupport_introspection_cpp.hpp\n'}
+[7.441236] (apriltag_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/april/workAreas/apriltag_ws/install/apriltag_msgs/lib/libapriltag_msgs__rosidl_typesupport_introspection_cpp.so\n'}
+[7.441870] (apriltag_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/april/workAreas/apriltag_ws/install/apriltag_msgs/lib/libapriltag_msgs__rosidl_typesupport_cpp.so\n'}
+[7.442644] (apriltag_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/april/workAreas/apriltag_ws/install/apriltag_msgs/share/apriltag_msgs/environment/pythonpath.sh\n'}
+[7.443505] (apriltag_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/april/workAreas/apriltag_ws/install/apriltag_msgs/share/apriltag_msgs/environment/pythonpath.dsv\n'}
+[7.444572] (apriltag_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/april/workAreas/apriltag_ws/install/apriltag_msgs/lib/python3.8/site-packages/apriltag_msgs/__init__.py\n'}
+[7.475981] (-) TimerEvent: {}
+[7.582196] (-) TimerEvent: {}
+[7.683302] (-) TimerEvent: {}
+[7.735728] (apriltag_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/april/workAreas/apriltag_ws/install/apriltag_msgs/lib/python3.8/site-packages/apriltag_msgs/msg\n'}
+[7.737000] (apriltag_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/april/workAreas/apriltag_ws/install/apriltag_msgs/lib/python3.8/site-packages/apriltag_msgs/msg/_point_s.c\n'}
+[7.738072] (apriltag_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/april/workAreas/apriltag_ws/install/apriltag_msgs/lib/python3.8/site-packages/apriltag_msgs/msg/_april_tag_detection_s.c\n'}
+[7.738712] (apriltag_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/april/workAreas/apriltag_ws/install/apriltag_msgs/lib/python3.8/site-packages/apriltag_msgs/msg/_april_tag_detection_array.py\n'}
+[7.739269] (apriltag_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/april/workAreas/apriltag_ws/install/apriltag_msgs/lib/python3.8/site-packages/apriltag_msgs/msg/_april_tag_detection_array_s.c\n'}
+[7.739977] (apriltag_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/april/workAreas/apriltag_ws/install/apriltag_msgs/lib/python3.8/site-packages/apriltag_msgs/msg/_april_tag_detection.py\n'}
+[7.740829] (apriltag_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/april/workAreas/apriltag_ws/install/apriltag_msgs/lib/python3.8/site-packages/apriltag_msgs/msg/_point.py\n'}
+[7.741400] (apriltag_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/april/workAreas/apriltag_ws/install/apriltag_msgs/lib/python3.8/site-packages/apriltag_msgs/msg/__init__.py\n'}
+[7.741930] (apriltag_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/april/workAreas/apriltag_ws/install/apriltag_msgs/lib/python3.8/site-packages/apriltag_msgs/apriltag_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so\n'}
+[7.760389] (apriltag_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/april/workAreas/apriltag_ws/install/apriltag_msgs/lib/python3.8/site-packages/apriltag_msgs/apriltag_msgs_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so\n'}
+[7.763730] (apriltag_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/april/workAreas/apriltag_ws/install/apriltag_msgs/lib/python3.8/site-packages/apriltag_msgs/apriltag_msgs_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so\n'}
+[7.767614] (apriltag_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/april/workAreas/apriltag_ws/install/apriltag_msgs/lib/libapriltag_msgs__python.so\n'}
+[7.768426] (apriltag_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/april/workAreas/apriltag_ws/install/apriltag_msgs/share/apriltag_msgs/msg/Point.idl\n'}
+[7.770909] (apriltag_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/april/workAreas/apriltag_ws/install/apriltag_msgs/share/apriltag_msgs/msg/AprilTagDetection.idl\n'}
+[7.771475] (apriltag_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/april/workAreas/apriltag_ws/install/apriltag_msgs/share/apriltag_msgs/msg/AprilTagDetectionArray.idl\n'}
+[7.778141] (apriltag_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/april/workAreas/apriltag_ws/install/apriltag_msgs/share/apriltag_msgs/msg/Point.msg\n'}
+[7.779305] (apriltag_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/april/workAreas/apriltag_ws/install/apriltag_msgs/share/apriltag_msgs/msg/AprilTagDetection.msg\n'}
+[7.779924] (apriltag_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/april/workAreas/apriltag_ws/install/apriltag_msgs/share/apriltag_msgs/msg/AprilTagDetectionArray.msg\n'}
+[7.780496] (apriltag_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/april/workAreas/apriltag_ws/install/apriltag_msgs/share/ament_index/resource_index/package_run_dependencies/apriltag_msgs\n'}
+[7.781047] (apriltag_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/april/workAreas/apriltag_ws/install/apriltag_msgs/share/ament_index/resource_index/parent_prefix_path/apriltag_msgs\n'}
+[7.781561] (apriltag_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/april/workAreas/apriltag_ws/install/apriltag_msgs/share/apriltag_msgs/environment/ament_prefix_path.sh\n'}
+[7.782253] (apriltag_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/april/workAreas/apriltag_ws/install/apriltag_msgs/share/apriltag_msgs/environment/ament_prefix_path.dsv\n'}
+[7.782805] (apriltag_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/april/workAreas/apriltag_ws/install/apriltag_msgs/share/apriltag_msgs/environment/path.sh\n'}
+[7.783341] (-) TimerEvent: {}
+[7.784011] (apriltag_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/april/workAreas/apriltag_ws/install/apriltag_msgs/share/apriltag_msgs/environment/path.dsv\n'}
+[7.784770] (apriltag_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/april/workAreas/apriltag_ws/install/apriltag_msgs/share/apriltag_msgs/local_setup.bash\n'}
+[7.785904] (apriltag_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/april/workAreas/apriltag_ws/install/apriltag_msgs/share/apriltag_msgs/local_setup.sh\n'}
+[7.787285] (apriltag_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/april/workAreas/apriltag_ws/install/apriltag_msgs/share/apriltag_msgs/local_setup.zsh\n'}
+[7.788158] (apriltag_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/april/workAreas/apriltag_ws/install/apriltag_msgs/share/apriltag_msgs/local_setup.dsv\n'}
+[7.788789] (apriltag_msgs) StdoutLine: {'line': b'-- Installing: /home/april/workAreas/apriltag_ws/install/apriltag_msgs/share/apriltag_msgs/package.dsv\n'}
+[7.789390] (apriltag_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/april/workAreas/apriltag_ws/install/apriltag_msgs/share/ament_index/resource_index/packages/apriltag_msgs\n'}
+[7.789915] (apriltag_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/april/workAreas/apriltag_ws/install/apriltag_msgs/share/apriltag_msgs/cmake/apriltag_msgs__rosidl_generator_cExport.cmake\n'}
+[7.790444] (apriltag_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/april/workAreas/apriltag_ws/install/apriltag_msgs/share/apriltag_msgs/cmake/apriltag_msgs__rosidl_generator_cExport-noconfig.cmake\n'}
+[7.791082] (apriltag_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/april/workAreas/apriltag_ws/install/apriltag_msgs/share/apriltag_msgs/cmake/apriltag_msgs__rosidl_typesupport_introspection_cExport.cmake\n'}
+[7.791981] (apriltag_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/april/workAreas/apriltag_ws/install/apriltag_msgs/share/apriltag_msgs/cmake/apriltag_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[7.792675] (apriltag_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/april/workAreas/apriltag_ws/install/apriltag_msgs/share/apriltag_msgs/cmake/apriltag_msgs__rosidl_typesupport_cExport.cmake\n'}
+[7.793319] (apriltag_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/april/workAreas/apriltag_ws/install/apriltag_msgs/share/apriltag_msgs/cmake/apriltag_msgs__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[7.794056] (apriltag_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/april/workAreas/apriltag_ws/install/apriltag_msgs/share/apriltag_msgs/cmake/apriltag_msgs__rosidl_generator_cppExport.cmake\n'}
+[7.794990] (apriltag_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/april/workAreas/apriltag_ws/install/apriltag_msgs/share/apriltag_msgs/cmake/apriltag_msgs__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[7.795590] (apriltag_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/april/workAreas/apriltag_ws/install/apriltag_msgs/share/apriltag_msgs/cmake/apriltag_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[7.796394] (apriltag_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/april/workAreas/apriltag_ws/install/apriltag_msgs/share/apriltag_msgs/cmake/apriltag_msgs__rosidl_typesupport_cppExport.cmake\n'}
+[7.797313] (apriltag_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/april/workAreas/apriltag_ws/install/apriltag_msgs/share/apriltag_msgs/cmake/apriltag_msgs__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[7.798054] (apriltag_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/april/workAreas/apriltag_ws/install/apriltag_msgs/share/apriltag_msgs/cmake/rosidl_cmake-extras.cmake\n'}
+[7.798828] (apriltag_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/april/workAreas/apriltag_ws/install/apriltag_msgs/share/apriltag_msgs/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[7.799760] (apriltag_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/april/workAreas/apriltag_ws/install/apriltag_msgs/share/apriltag_msgs/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[7.800552] (apriltag_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/april/workAreas/apriltag_ws/install/apriltag_msgs/share/apriltag_msgs/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[7.801115] (apriltag_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/april/workAreas/apriltag_ws/install/apriltag_msgs/share/apriltag_msgs/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[7.802074] (apriltag_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/april/workAreas/apriltag_ws/install/apriltag_msgs/share/apriltag_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[7.802655] (apriltag_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/april/workAreas/apriltag_ws/install/apriltag_msgs/share/apriltag_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[7.803180] (apriltag_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/april/workAreas/apriltag_ws/install/apriltag_msgs/share/apriltag_msgs/cmake/apriltag_msgsConfig.cmake\n'}
+[7.803664] (apriltag_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/april/workAreas/apriltag_ws/install/apriltag_msgs/share/apriltag_msgs/cmake/apriltag_msgsConfig-version.cmake\n'}
+[7.804290] (apriltag_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/april/workAreas/apriltag_ws/install/apriltag_msgs/share/apriltag_msgs/package.xml\n'}
+[7.853585] (apriltag_msgs) CommandEnded: {'returncode': 0}
+[7.884023] (-) TimerEvent: {}
+[7.989261] (-) TimerEvent: {}
+[8.090843] (-) TimerEvent: {}
+[8.191732] (-) TimerEvent: {}
+[8.292775] (-) TimerEvent: {}
+[8.393864] (-) TimerEvent: {}
+[8.495436] (-) TimerEvent: {}
+[8.596379] (-) TimerEvent: {}
+[8.697883] (-) TimerEvent: {}
+[8.799546] (-) TimerEvent: {}
+[8.901570] (-) TimerEvent: {}
+[9.014618] (-) TimerEvent: {}
+[9.116967] (-) TimerEvent: {}
+[9.178763] (py_pysub) StdoutLine: {'line': b'running egg_info\n'}
+[9.183049] (py_pysub) StdoutLine: {'line': b'writing ../../../build/py_pysub/py_pysub.egg-info/PKG-INFO\n'}
+[9.184884] (py_pysub) StdoutLine: {'line': b'writing dependency_links to ../../../build/py_pysub/py_pysub.egg-info/dependency_links.txt\n'}
+[9.186489] (py_pysub) StdoutLine: {'line': b'writing entry points to ../../../build/py_pysub/py_pysub.egg-info/entry_points.txt\n'}
+[9.188496] (py_pysub) StdoutLine: {'line': b'writing requirements to ../../../build/py_pysub/py_pysub.egg-info/requires.txt\n'}
+[9.199045] (py_pysub) StdoutLine: {'line': b'writing top-level names to ../../../build/py_pysub/py_pysub.egg-info/top_level.txt\n'}
+[9.217294] (-) TimerEvent: {}
+[9.319721] (-) TimerEvent: {}
+[9.421558] (py_pysub) StdoutLine: {'line': b"reading manifest file '../../../build/py_pysub/py_pysub.egg-info/SOURCES.txt'\n"}
+[9.423136] (-) TimerEvent: {}
+[9.425780] (py_pysub) StdoutLine: {'line': b"writing manifest file '../../../build/py_pysub/py_pysub.egg-info/SOURCES.txt'\n"}
+[9.441722] (py_pysub) StdoutLine: {'line': b'running build\n'}
+[9.447180] (py_pysub) StdoutLine: {'line': b'running build_py\n'}
+[9.450380] (py_pysub) StdoutLine: {'line': b'running install\n'}
+[9.456870] (py_pysub) StdoutLine: {'line': b'running install_lib\n'}
+[9.465945] (py_pysub) StdoutLine: {'line': b'running install_data\n'}
+[9.466809] (py_pysub) StdoutLine: {'line': b'running install_egg_info\n'}
+[9.488495] (py_pysub) StdoutLine: {'line': b"removing '/home/april/workAreas/apriltag_ws/install/py_pysub/lib/python3.8/site-packages/py_pysub-0.0.0-py3.8.egg-info' (and everything under it)\n"}
+[9.489214] (py_pysub) StdoutLine: {'line': b'Copying ../../../build/py_pysub/py_pysub.egg-info to /home/april/workAreas/apriltag_ws/install/py_pysub/lib/python3.8/site-packages/py_pysub-0.0.0-py3.8.egg-info\n'}
+[9.490029] (py_pysub) StdoutLine: {'line': b'running install_scripts\n'}
+[9.527736] (-) TimerEvent: {}
+[9.546659] (apriltag_msgs) JobEnded: {'identifier': 'apriltag_msgs', 'rc': 0}
+[9.561144] (apriltag_ros) JobStarted: {'identifier': 'apriltag_ros'}
+[9.606865] (py_pysub) StdoutLine: {'line': b'Installing talker script to /home/april/workAreas/apriltag_ws/install/py_pysub/lib/py_pysub\n'}
+[9.613422] (py_pysub) StdoutLine: {'line': b"writing list of installed files to '/home/april/workAreas/apriltag_ws/build/py_pysub/install.log'\n"}
+[9.627949] (-) TimerEvent: {}
+[9.676247] (cam_subscriber) JobStarted: {'identifier': 'cam_subscriber'}
+[9.728209] (-) TimerEvent: {}
+[9.835103] (py_pysub) CommandEnded: {'returncode': 0}
+[9.840234] (-) TimerEvent: {}
+[9.948246] (-) TimerEvent: {}
+[9.983351] (py_pysub) JobEnded: {'identifier': 'py_pysub', 'rc': 0}
+[9.990858] (apriltag_ros) JobProgress: {'identifier': 'apriltag_ros', 'progress': 'cmake'}
+[9.994899] (apriltag_ros) JobProgress: {'identifier': 'apriltag_ros', 'progress': 'build'}
+[9.996483] (apriltag_ros) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/april/workAreas/apriltag_ws/build/apriltag_ros', '--', '-j4', '-l4'], 'cwd': '/home/april/workAreas/apriltag_ws/build/apriltag_ros', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'april'), ('SSH_AGENT_PID', '1785'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/april/workAreas/apriltag_ws/install/apriltag_msgs/lib:/home/april/workAreas/apriltag_ws/install/apriltag_ros/lib:/home/april/rosApril_ws/install/apriltag_ros/lib:/home/april/rosApril_ws/install/apriltag_msgs/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/april'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1611'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/april/workAreas/apriltag_ws/install:/home/april/rosApril_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'april'), ('JOURNAL_STREAM', '9:40138'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'april'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/april/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/pi-april:@/tmp/.ICE-unix/1839,unix/pi-april:/tmp/.ICE-unix/1839'), ('INVOCATION_ID', 'e26e6371b2874b3daa94032fb2e82faa'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/e74708b9_0f41_4243_88db_75bd0c3ae2c9'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.80'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/april/workAreas/apriltag_ws/install/py_pysub:/home/april/workAreas/apriltag_ws/install/cam_subscriber:/home/april/workAreas/apriltag_ws/install/apriltag_ros:/home/april/workAreas/apriltag_ws/install/apriltag_msgs:/home/april/rosApril_ws/install/py_pysub:/home/april/rosApril_ws/install/cam_subscriber:/home/april/rosApril_ws/install/apriltag_ros:/home/april/rosApril_ws/install/apriltag_msgs:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/april/workAreas/apriltag_ws/build/apriltag_ros'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/april/workAreas/apriltag_ws/install/apriltag_msgs/lib/python3.8/site-packages:/home/april/workAreas/apriltag_ws/install/py_pysub/lib/python3.8/site-packages:/home/april/workAreas/apriltag_ws/install/cam_subscriber/lib/python3.8/site-packages:/home/april/rosApril_ws/install/py_pysub/lib/python3.8/site-packages:/home/april/rosApril_ws/install/cam_subscriber/lib/python3.8/site-packages:/home/april/rosApril_ws/install/apriltag_msgs/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/april/workAreas/apriltag_ws/install/apriltag_msgs:/home/april/workAreas/apriltag_ws/install/apriltag_ros:/home/april/rosApril_ws/install/apriltag_ros:/home/april/rosApril_ws/install/apriltag_msgs:/home/april/workAreas/apriltag_ws/install/py_pysub:/home/april/workAreas/apriltag_ws/install/cam_subscriber:/home/april/rosApril_ws/install/py_pysub:/home/april/rosApril_ws/install/cam_subscriber:/opt/ros/foxy')]), 'shell': False}
+[10.054174] (-) TimerEvent: {}
+[10.172515] (-) TimerEvent: {}
+[10.274360] (-) TimerEvent: {}
+[10.375688] (-) TimerEvent: {}
+[10.477007] (-) TimerEvent: {}
+[10.578255] (-) TimerEvent: {}
+[10.679920] (-) TimerEvent: {}
+[10.780717] (-) TimerEvent: {}
+[10.881830] (-) TimerEvent: {}
+[10.909518] (apriltag_ros) StdoutLine: {'line': b'[100%] Built target AprilTagNode\n'}
+[10.982337] (-) TimerEvent: {}
+[11.084149] (-) TimerEvent: {}
+[11.185760] (-) TimerEvent: {}
+[11.287558] (-) TimerEvent: {}
+[11.389485] (-) TimerEvent: {}
+[11.491720] (-) TimerEvent: {}
+[11.593599] (-) TimerEvent: {}
+[11.695361] (-) TimerEvent: {}
+[11.797410] (-) TimerEvent: {}
+[11.898767] (-) TimerEvent: {}
+[12.000295] (-) TimerEvent: {}
+[12.101688] (-) TimerEvent: {}
+[12.207482] (-) TimerEvent: {}
+[12.315076] (-) TimerEvent: {}
+[12.348063] (apriltag_ros) CommandEnded: {'returncode': 0}
+[12.436078] (-) TimerEvent: {}
+[12.537157] (-) TimerEvent: {}
+[12.638127] (apriltag_ros) JobProgress: {'identifier': 'apriltag_ros', 'progress': 'install'}
+[12.640178] (-) TimerEvent: {}
+[12.654135] (apriltag_ros) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/april/workAreas/apriltag_ws/build/apriltag_ros'], 'cwd': '/home/april/workAreas/apriltag_ws/build/apriltag_ros', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'april'), ('SSH_AGENT_PID', '1785'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/april/workAreas/apriltag_ws/install/apriltag_msgs/lib:/home/april/workAreas/apriltag_ws/install/apriltag_ros/lib:/home/april/rosApril_ws/install/apriltag_ros/lib:/home/april/rosApril_ws/install/apriltag_msgs/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/april'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1611'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/april/workAreas/apriltag_ws/install:/home/april/rosApril_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'april'), ('JOURNAL_STREAM', '9:40138'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'april'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/april/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/pi-april:@/tmp/.ICE-unix/1839,unix/pi-april:/tmp/.ICE-unix/1839'), ('INVOCATION_ID', 'e26e6371b2874b3daa94032fb2e82faa'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/e74708b9_0f41_4243_88db_75bd0c3ae2c9'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.80'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/april/workAreas/apriltag_ws/install/py_pysub:/home/april/workAreas/apriltag_ws/install/cam_subscriber:/home/april/workAreas/apriltag_ws/install/apriltag_ros:/home/april/workAreas/apriltag_ws/install/apriltag_msgs:/home/april/rosApril_ws/install/py_pysub:/home/april/rosApril_ws/install/cam_subscriber:/home/april/rosApril_ws/install/apriltag_ros:/home/april/rosApril_ws/install/apriltag_msgs:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/april/workAreas/apriltag_ws/build/apriltag_ros'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/april/workAreas/apriltag_ws/install/apriltag_msgs/lib/python3.8/site-packages:/home/april/workAreas/apriltag_ws/install/py_pysub/lib/python3.8/site-packages:/home/april/workAreas/apriltag_ws/install/cam_subscriber/lib/python3.8/site-packages:/home/april/rosApril_ws/install/py_pysub/lib/python3.8/site-packages:/home/april/rosApril_ws/install/cam_subscriber/lib/python3.8/site-packages:/home/april/rosApril_ws/install/apriltag_msgs/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/april/workAreas/apriltag_ws/install/apriltag_msgs:/home/april/workAreas/apriltag_ws/install/apriltag_ros:/home/april/rosApril_ws/install/apriltag_ros:/home/april/rosApril_ws/install/apriltag_msgs:/home/april/workAreas/apriltag_ws/install/py_pysub:/home/april/workAreas/apriltag_ws/install/cam_subscriber:/home/april/rosApril_ws/install/py_pysub:/home/april/rosApril_ws/install/cam_subscriber:/opt/ros/foxy')]), 'shell': False}
+[12.740074] (-) TimerEvent: {}
+[12.837011] (apriltag_ros) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[12.838797] (apriltag_ros) StdoutLine: {'line': b'-- Up-to-date: /home/april/workAreas/apriltag_ws/install/apriltag_ros/share/apriltag_ros/environment/library_path.sh\n'}
+[12.842003] (-) TimerEvent: {}
+[12.848103] (apriltag_ros) StdoutLine: {'line': b'-- Up-to-date: /home/april/workAreas/apriltag_ws/install/apriltag_ros/share/apriltag_ros/environment/library_path.dsv\n'}
+[12.851069] (apriltag_ros) StdoutLine: {'line': b'-- Up-to-date: /home/april/workAreas/apriltag_ws/install/apriltag_ros/lib/libAprilTagNode.so\n'}
+[12.863587] (apriltag_ros) StdoutLine: {'line': b'-- Up-to-date: /home/april/workAreas/apriltag_ws/install/apriltag_ros/share/apriltag_ros/cfg\n'}
+[12.869761] (apriltag_ros) StdoutLine: {'line': b'-- Up-to-date: /home/april/workAreas/apriltag_ws/install/apriltag_ros/share/apriltag_ros/cfg/tags_16h5_all.yaml\n'}
+[12.873598] (apriltag_ros) StdoutLine: {'line': b'-- Up-to-date: /home/april/workAreas/apriltag_ws/install/apriltag_ros/share/apriltag_ros/cfg/tags_16h5_filtered.yaml\n'}
+[12.875088] (apriltag_ros) StdoutLine: {'line': b'-- Up-to-date: /home/april/workAreas/apriltag_ws/install/apriltag_ros/share/apriltag_ros/cfg/tags_36h11_all.yaml\n'}
+[12.878787] (apriltag_ros) StdoutLine: {'line': b'-- Up-to-date: /home/april/workAreas/apriltag_ws/install/apriltag_ros/share/apriltag_ros/launch\n'}
+[12.881953] (apriltag_ros) StdoutLine: {'line': b'-- Up-to-date: /home/april/workAreas/apriltag_ws/install/apriltag_ros/share/apriltag_ros/launch/tag_16h5_all.launch.py\n'}
+[12.888824] (apriltag_ros) StdoutLine: {'line': b'-- Up-to-date: /home/april/workAreas/apriltag_ws/install/apriltag_ros/share/ament_index/resource_index/package_run_dependencies/apriltag_ros\n'}
+[12.897047] (apriltag_ros) StdoutLine: {'line': b'-- Up-to-date: /home/april/workAreas/apriltag_ws/install/apriltag_ros/share/ament_index/resource_index/parent_prefix_path/apriltag_ros\n'}
+[12.901176] (apriltag_ros) StdoutLine: {'line': b'-- Up-to-date: /home/april/workAreas/apriltag_ws/install/apriltag_ros/share/apriltag_ros/environment/ament_prefix_path.sh\n'}
+[12.903062] (apriltag_ros) StdoutLine: {'line': b'-- Up-to-date: /home/april/workAreas/apriltag_ws/install/apriltag_ros/share/apriltag_ros/environment/ament_prefix_path.dsv\n'}
+[12.905002] (apriltag_ros) StdoutLine: {'line': b'-- Up-to-date: /home/april/workAreas/apriltag_ws/install/apriltag_ros/share/apriltag_ros/environment/path.sh\n'}
+[13.008172] (-) TimerEvent: {}
+[13.008963] (apriltag_ros) StdoutLine: {'line': b'-- Up-to-date: /home/april/workAreas/apriltag_ws/install/apriltag_ros/share/apriltag_ros/environment/path.dsv\n'}
+[13.009854] (apriltag_ros) StdoutLine: {'line': b'-- Up-to-date: /home/april/workAreas/apriltag_ws/install/apriltag_ros/share/apriltag_ros/local_setup.bash\n'}
+[13.010663] (apriltag_ros) StdoutLine: {'line': b'-- Up-to-date: /home/april/workAreas/apriltag_ws/install/apriltag_ros/share/apriltag_ros/local_setup.sh\n'}
+[13.011417] (apriltag_ros) StdoutLine: {'line': b'-- Up-to-date: /home/april/workAreas/apriltag_ws/install/apriltag_ros/share/apriltag_ros/local_setup.zsh\n'}
+[13.012252] (apriltag_ros) StdoutLine: {'line': b'-- Up-to-date: /home/april/workAreas/apriltag_ws/install/apriltag_ros/share/apriltag_ros/local_setup.dsv\n'}
+[13.013407] (apriltag_ros) StdoutLine: {'line': b'-- Installing: /home/april/workAreas/apriltag_ws/install/apriltag_ros/share/apriltag_ros/package.dsv\n'}
+[13.014771] (apriltag_ros) StdoutLine: {'line': b'-- Up-to-date: /home/april/workAreas/apriltag_ws/install/apriltag_ros/share/ament_index/resource_index/packages/apriltag_ros\n'}
+[13.015766] (apriltag_ros) StdoutLine: {'line': b'-- Up-to-date: /home/april/workAreas/apriltag_ws/install/apriltag_ros/share/ament_index/resource_index/rclcpp_components/apriltag_ros\n'}
+[13.034134] (apriltag_ros) StdoutLine: {'line': b'-- Up-to-date: /home/april/workAreas/apriltag_ws/install/apriltag_ros/share/apriltag_ros/cmake/apriltag_rosConfig.cmake\n'}
+[13.036063] (apriltag_ros) StdoutLine: {'line': b'-- Up-to-date: /home/april/workAreas/apriltag_ws/install/apriltag_ros/share/apriltag_ros/cmake/apriltag_rosConfig-version.cmake\n'}
+[13.039531] (apriltag_ros) StdoutLine: {'line': b'-- Up-to-date: /home/april/workAreas/apriltag_ws/install/apriltag_ros/share/apriltag_ros/package.xml\n'}
+[13.043032] (apriltag_ros) CommandEnded: {'returncode': 0}
+[13.127374] (-) TimerEvent: {}
+[13.228581] (-) TimerEvent: {}
+[13.329662] (-) TimerEvent: {}
+[13.451274] (-) TimerEvent: {}
+[13.553088] (-) TimerEvent: {}
+[13.577017] (apriltag_ros) JobEnded: {'identifier': 'apriltag_ros', 'rc': 0}
+[13.653290] (-) TimerEvent: {}
+[13.756489] (-) TimerEvent: {}
+[13.859655] (-) TimerEvent: {}
+[13.966226] (-) TimerEvent: {}
+[14.074612] (-) TimerEvent: {}
+[14.177928] (-) TimerEvent: {}
+[14.284266] (-) TimerEvent: {}
+[14.387756] (-) TimerEvent: {}
+[14.490513] (-) TimerEvent: {}
+[14.592986] (-) TimerEvent: {}
+[14.694641] (-) TimerEvent: {}
+[14.798298] (-) TimerEvent: {}
+[14.900565] (-) TimerEvent: {}
+[15.002746] (-) TimerEvent: {}
+[15.103987] (-) TimerEvent: {}
+[15.206359] (-) TimerEvent: {}
+[15.314042] (-) TimerEvent: {}
+[15.421108] (-) TimerEvent: {}
+[15.522355] (-) TimerEvent: {}
+[15.623538] (-) TimerEvent: {}
+[15.724863] (-) TimerEvent: {}
+[15.826854] (-) TimerEvent: {}
+[15.927943] (-) TimerEvent: {}
+[15.954581] (cam_subscriber) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/cam_subscriber', 'build', '--build-base', '/home/april/workAreas/apriltag_ws/build/cam_subscriber/build', 'install', '--record', '/home/april/workAreas/apriltag_ws/build/cam_subscriber/install.log', '--install-scripts', '$base/lib/cam_subscriber', '--single-version-externally-managed'], 'cwd': '/home/april/workAreas/apriltag_ws/src/cam_subscriber', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'april', 'SSH_AGENT_PID': '1785', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/april/workAreas/apriltag_ws/install/apriltag_msgs/lib:/home/april/workAreas/apriltag_ws/install/apriltag_ros/lib:/home/april/rosApril_ws/install/apriltag_ros/lib:/home/april/rosApril_ws/install/apriltag_msgs/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib', 'HOME': '/home/april', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '1611', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'COLCON_PREFIX_PATH': '/home/april/workAreas/apriltag_ws/install:/home/april/rosApril_ws/install', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'april', 'JOURNAL_STREAM': '9:40138', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'april', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/opt/ros/foxy/bin:/home/april/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/pi-april:@/tmp/.ICE-unix/1839,unix/pi-april:/tmp/.ICE-unix/1839', 'INVOCATION_ID': 'e26e6371b2874b3daa94032fb2e82faa', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/e74708b9_0f41_4243_88db_75bd0c3ae2c9', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':1', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.80', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/april/workAreas/apriltag_ws/install/py_pysub:/home/april/workAreas/apriltag_ws/install/cam_subscriber:/home/april/workAreas/apriltag_ws/install/apriltag_ros:/home/april/workAreas/apriltag_ws/install/apriltag_msgs:/home/april/rosApril_ws/install/py_pysub:/home/april/rosApril_ws/install/cam_subscriber:/home/april/rosApril_ws/install/apriltag_ros:/home/april/rosApril_ws/install/apriltag_msgs:/opt/ros/foxy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GJS_DEBUG_OUTPUT': 'stderr', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/april/workAreas/apriltag_ws/build/cam_subscriber', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/april/workAreas/apriltag_ws/build/cam_subscriber/prefix_override:/home/april/workAreas/apriltag_ws/install/cam_subscriber/lib/python3.8/site-packages:/home/april/workAreas/apriltag_ws/install/apriltag_msgs/lib/python3.8/site-packages:/home/april/workAreas/apriltag_ws/install/py_pysub/lib/python3.8/site-packages:/home/april/workAreas/apriltag_ws/install/cam_subscriber/lib/python3.8/site-packages:/home/april/rosApril_ws/install/py_pysub/lib/python3.8/site-packages:/home/april/rosApril_ws/install/cam_subscriber/lib/python3.8/site-packages:/home/april/rosApril_ws/install/apriltag_msgs/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'COLCON': '1', 'VTE_VERSION': '6003', 'CMAKE_PREFIX_PATH': '/home/april/workAreas/apriltag_ws/install/apriltag_msgs:/home/april/workAreas/apriltag_ws/install/apriltag_ros:/home/april/rosApril_ws/install/apriltag_ros:/home/april/rosApril_ws/install/apriltag_msgs'}, 'shell': False}
+[16.028321] (-) TimerEvent: {}
+[16.129560] (-) TimerEvent: {}
+[16.231229] (-) TimerEvent: {}
+[16.333056] (-) TimerEvent: {}
+[16.437019] (-) TimerEvent: {}
+[16.538308] (-) TimerEvent: {}
+[16.640561] (-) TimerEvent: {}
+[16.742564] (-) TimerEvent: {}
+[16.844192] (-) TimerEvent: {}
+[16.946158] (-) TimerEvent: {}
+[17.047687] (-) TimerEvent: {}
+[17.149215] (-) TimerEvent: {}
+[17.252789] (-) TimerEvent: {}
+[17.358525] (-) TimerEvent: {}
+[17.460013] (-) TimerEvent: {}
+[17.561296] (-) TimerEvent: {}
+[17.662151] (-) TimerEvent: {}
+[17.763173] (-) TimerEvent: {}
+[17.864227] (-) TimerEvent: {}
+[17.965230] (-) TimerEvent: {}
+[18.066143] (-) TimerEvent: {}
+[18.167385] (-) TimerEvent: {}
+[18.239283] (cam_subscriber) StdoutLine: {'line': b'running egg_info\n'}
+[18.246935] (cam_subscriber) StdoutLine: {'line': b'writing ../../build/cam_subscriber/cam_subscriber.egg-info/PKG-INFO\n'}
+[18.249161] (cam_subscriber) StdoutLine: {'line': b'writing dependency_links to ../../build/cam_subscriber/cam_subscriber.egg-info/dependency_links.txt\n'}
+[18.251519] (cam_subscriber) StdoutLine: {'line': b'writing entry points to ../../build/cam_subscriber/cam_subscriber.egg-info/entry_points.txt\n'}
+[18.253064] (cam_subscriber) StdoutLine: {'line': b'writing requirements to ../../build/cam_subscriber/cam_subscriber.egg-info/requires.txt\n'}
+[18.254824] (cam_subscriber) StdoutLine: {'line': b'writing top-level names to ../../build/cam_subscriber/cam_subscriber.egg-info/top_level.txt\n'}
+[18.267939] (-) TimerEvent: {}
+[18.372935] (-) TimerEvent: {}
+[18.451580] (cam_subscriber) StdoutLine: {'line': b"reading manifest file '../../build/cam_subscriber/cam_subscriber.egg-info/SOURCES.txt'\n"}
+[18.457154] (cam_subscriber) StdoutLine: {'line': b"writing manifest file '../../build/cam_subscriber/cam_subscriber.egg-info/SOURCES.txt'\n"}
+[18.458693] (cam_subscriber) StdoutLine: {'line': b'running build\n'}
+[18.459820] (cam_subscriber) StdoutLine: {'line': b'running build_py\n'}
+[18.461000] (cam_subscriber) StdoutLine: {'line': b'copying cam_subscriber/AprilTag_Cam_Subscriber.py -> /home/april/workAreas/apriltag_ws/build/cam_subscriber/build/lib/cam_subscriber\n'}
+[18.461985] (cam_subscriber) StdoutLine: {'line': b'running install\n'}
+[18.470763] (cam_subscriber) StdoutLine: {'line': b'running install_lib\n'}
+[18.473226] (-) TimerEvent: {}
+[18.475371] (cam_subscriber) StdoutLine: {'line': b'copying /home/april/workAreas/apriltag_ws/build/cam_subscriber/build/lib/cam_subscriber/AprilTag_Cam_Subscriber.py -> /home/april/workAreas/apriltag_ws/install/cam_subscriber/lib/python3.8/site-packages/cam_subscriber\n'}
+[18.481090] (cam_subscriber) StdoutLine: {'line': b'byte-compiling /home/april/workAreas/apriltag_ws/install/cam_subscriber/lib/python3.8/site-packages/cam_subscriber/AprilTag_Cam_Subscriber.py to AprilTag_Cam_Subscriber.cpython-38.pyc\n'}
+[18.487974] (cam_subscriber) StderrLine: {'line': b'Sorry: IndentationError: expected an indented block (AprilTag_Cam_Subscriber.py, line 45)\n'}
+[18.489536] (cam_subscriber) StdoutLine: {'line': b'running install_data\n'}
+[18.491960] (cam_subscriber) StdoutLine: {'line': b'running install_egg_info\n'}
+[18.500189] (cam_subscriber) StdoutLine: {'line': b"removing '/home/april/workAreas/apriltag_ws/install/cam_subscriber/lib/python3.8/site-packages/cam_subscriber-0.0.0-py3.8.egg-info' (and everything under it)\n"}
+[18.520385] (cam_subscriber) StdoutLine: {'line': b'Copying ../../build/cam_subscriber/cam_subscriber.egg-info to /home/april/workAreas/apriltag_ws/install/cam_subscriber/lib/python3.8/site-packages/cam_subscriber-0.0.0-py3.8.egg-info\n'}
+[18.529441] (cam_subscriber) StdoutLine: {'line': b'running install_scripts\n'}
+[18.575536] (-) TimerEvent: {}
+[18.628238] (cam_subscriber) StdoutLine: {'line': b'Installing listener script to /home/april/workAreas/apriltag_ws/install/cam_subscriber/lib/cam_subscriber\n'}
+[18.633484] (cam_subscriber) StdoutLine: {'line': b"writing list of installed files to '/home/april/workAreas/apriltag_ws/build/cam_subscriber/install.log'\n"}
+[18.677190] (-) TimerEvent: {}
+[18.795411] (cam_subscriber) CommandEnded: {'returncode': 0}
+[18.804752] (-) TimerEvent: {}
+[18.908202] (cam_subscriber) JobEnded: {'identifier': 'cam_subscriber', 'rc': 0}
+[18.910867] (-) TimerEvent: {}
+[18.937208] (-) EventReactorShutdown: {}

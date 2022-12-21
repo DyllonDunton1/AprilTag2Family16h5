@@ -1,0 +1,17 @@
+[0.235s] Invoking command in '/home/april/workAreas/apriltag_ws/build/apriltag_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/april/workAreas/apriltag_ws/install/py_pysub:/home/april/workAreas/apriltag_ws/install/cam_subscriber:/home/april/rosApril_ws/install/py_pysub:/home/april/rosApril_ws/install/cam_subscriber:/opt/ros/foxy /usr/bin/cmake --build /home/april/workAreas/apriltag_ws/build/apriltag_msgs -- -j4 -l4
+[0.974s] [  2%] Built target apriltag_msgs__cpp
+[1.073s] [ 12%] Built target apriltag_msgs__rosidl_generator_c
+[1.292s] [ 23%] Built target apriltag_msgs__rosidl_typesupport_cpp
+[1.349s] [ 34%] Built target apriltag_msgs__rosidl_typesupport_fastrtps_cpp
+[1.571s] [ 44%] Built target apriltag_msgs__rosidl_typesupport_c
+[1.836s] [ 55%] Built target apriltag_msgs__rosidl_typesupport_fastrtps_c
+[2.002s] [ 65%] Built target apriltag_msgs__rosidl_typesupport_introspection_c
+[2.187s] [ 76%] Built target apriltag_msgs__rosidl_typesupport_introspection_cpp
+[2.518s] [ 76%] Built target apriltag_msgs
+[2.765s] [ 78%] Built target apriltag_msgs__py
+[3.052s] [ 87%] Built target apriltag_msgs__python
+[3.339s] [ 91%] Built target apriltag_msgs__rosidl_typesupport_introspection_c__pyext
+[3.633s] [ 95%] Built target apriltag_msgs__rosidl_typesupport_c__pyext
+[3.734s] make[1]: *** [CMakeFiles/Makefile2:159: CMakeFiles/apriltag_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/all] Interrupt
+[3.735s] make: *** [Makefile:141: all] Interrupt
+[3.749s] Invoked command in '/home/april/workAreas/apriltag_ws/build/apriltag_msgs' returned '-2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/april/workAreas/apriltag_ws/install/py_pysub:/home/april/workAreas/apriltag_ws/install/cam_subscriber:/home/april/rosApril_ws/install/py_pysub:/home/april/rosApril_ws/install/cam_subscriber:/opt/ros/foxy /usr/bin/cmake --build /home/april/workAreas/apriltag_ws/build/apriltag_msgs -- -j4 -l4

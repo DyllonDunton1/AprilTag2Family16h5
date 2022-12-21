@@ -1,0 +1,3 @@
+make[2]: *** [CMakeFiles/apriltag_msgs.dir/build.make:106: CMakeFiles/apriltag_msgs.dir/depend] Interrupt
+make[1]: *** [CMakeFiles/Makefile2:219: CMakeFiles/apriltag_msgs.dir/all] Interrupt
+make: *** [Makefile:141: all] Interrupt

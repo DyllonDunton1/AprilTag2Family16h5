@@ -1,0 +1,21 @@
+[3.819s] Invoking command in '/home/april/workAreas/apriltag_ws/src/py_pysub/py_pysub': PYTHONPATH=/home/april/workAreas/apriltag_ws/build/py_pysub/prefix_override:/home/april/workAreas/apriltag_ws/install/py_pysub/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/py_pysub build --build-base /home/april/workAreas/apriltag_ws/build/py_pysub/build install --record /home/april/workAreas/apriltag_ws/build/py_pysub/install.log --install-scripts $base/lib/py_pysub --single-version-externally-managed
+[5.298s] running egg_info
+[5.300s] writing ../../../build/py_pysub/py_pysub.egg-info/PKG-INFO
+[5.301s] writing dependency_links to ../../../build/py_pysub/py_pysub.egg-info/dependency_links.txt
+[5.302s] writing entry points to ../../../build/py_pysub/py_pysub.egg-info/entry_points.txt
+[5.303s] writing requirements to ../../../build/py_pysub/py_pysub.egg-info/requires.txt
+[5.305s] writing top-level names to ../../../build/py_pysub/py_pysub.egg-info/top_level.txt
+[5.466s] reading manifest file '../../../build/py_pysub/py_pysub.egg-info/SOURCES.txt'
+[5.471s] writing manifest file '../../../build/py_pysub/py_pysub.egg-info/SOURCES.txt'
+[5.472s] running build
+[5.473s] running build_py
+[5.475s] running install
+[5.476s] running install_lib
+[5.483s] running install_data
+[5.485s] running install_egg_info
+[5.493s] removing '/home/april/workAreas/apriltag_ws/install/py_pysub/lib/python3.8/site-packages/py_pysub-0.0.0-py3.8.egg-info' (and everything under it)
+[5.495s] Copying ../../../build/py_pysub/py_pysub.egg-info to /home/april/workAreas/apriltag_ws/install/py_pysub/lib/python3.8/site-packages/py_pysub-0.0.0-py3.8.egg-info
+[5.501s] running install_scripts
+[5.597s] Installing talker script to /home/april/workAreas/apriltag_ws/install/py_pysub/lib/py_pysub
+[5.605s] writing list of installed files to '/home/april/workAreas/apriltag_ws/build/py_pysub/install.log'
+[6.082s] Invoked command in '/home/april/workAreas/apriltag_ws/src/py_pysub/py_pysub' returned '0': PYTHONPATH=/home/april/workAreas/apriltag_ws/build/py_pysub/prefix_override:/home/april/workAreas/apriltag_ws/install/py_pysub/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/py_pysub build --build-base /home/april/workAreas/apriltag_ws/build/py_pysub/build install --record /home/april/workAreas/apriltag_ws/build/py_pysub/install.log --install-scripts $base/lib/py_pysub --single-version-externally-managed

@@ -1,0 +1,48 @@
+[0.231s] Invoking command in '/home/april/workAreas/apriltag_ws/build/apriltag_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/april/workAreas/apriltag_ws/install/py_pysub:/home/april/workAreas/apriltag_ws/install/cam_subscriber:/home/april/rosApril_ws/install/py_pysub:/home/april/rosApril_ws/install/cam_subscriber:/opt/ros/foxy /usr/bin/cmake --build /home/april/workAreas/apriltag_ws/build/apriltag_msgs -- -j4 -l4
+[0.801s] [  2%] Built target apriltag_msgs__cpp
+[1.093s] [ 12%] Built target apriltag_msgs__rosidl_generator_c
+[1.212s] [ 23%] Built target apriltag_msgs__rosidl_typesupport_cpp
+[1.388s] [ 34%] Built target apriltag_msgs__rosidl_typesupport_introspection_cpp
+[1.450s] [ 44%] Built target apriltag_msgs__rosidl_typesupport_fastrtps_cpp
+[1.513s] [ 55%] Built target apriltag_msgs__rosidl_typesupport_introspection_c
+[1.528s] [ 65%] Built target apriltag_msgs__rosidl_typesupport_c
+[1.811s] [ 76%] Built target apriltag_msgs__rosidl_typesupport_fastrtps_c
+[2.054s] [ 76%] Built target apriltag_msgs
+[2.326s] [ 78%] Built target apriltag_msgs__py
+[2.663s] [ 87%] Built target apriltag_msgs__python
+[3.079s] [ 91%] Built target apriltag_msgs__rosidl_typesupport_introspection_c__pyext
+[3.212s] [ 95%] Built target apriltag_msgs__rosidl_typesupport_c__pyext
+[3.232s] [100%] Built target apriltag_msgs__rosidl_typesupport_fastrtps_c__pyext
+[3.336s] Invoked command in '/home/april/workAreas/apriltag_ws/build/apriltag_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/april/workAreas/apriltag_ws/install/py_pysub:/home/april/workAreas/apriltag_ws/install/cam_subscriber:/home/april/rosApril_ws/install/py_pysub:/home/april/rosApril_ws/install/cam_subscriber:/opt/ros/foxy /usr/bin/cmake --build /home/april/workAreas/apriltag_ws/build/apriltag_msgs -- -j4 -l4
+[4.144s] Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/colcon_parallel_executor/executor/parallel.py", line 67, in execute
+    loop.run_until_complete(future)
+  File "/usr/lib/python3.8/asyncio/base_events.py", line 603, in run_until_complete
+    self.run_forever()
+  File "/usr/lib/python3.8/asyncio/base_events.py", line 570, in run_forever
+    self._run_once()
+  File "/usr/lib/python3.8/asyncio/base_events.py", line 1823, in _run_once
+    event_list = self._selector.select(timeout)
+  File "/usr/lib/python3.8/selectors.py", line 468, in select
+    fd_event_list = self._selector.poll(timeout, max_ev)
+KeyboardInterrupt
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/colcon_core/executor/__init__.py", line 91, in __call__
+    rc = await self.task(*args, **kwargs)
+  File "/usr/lib/python3/dist-packages/colcon_core/task/__init__.py", line 93, in __call__
+    return await task_method(*args, **kwargs)
+  File "/usr/lib/python3/dist-packages/colcon_ros/task/ament_cmake/build.py", line 59, in build
+    rc = await extension.build(
+  File "/usr/lib/python3/dist-packages/colcon_cmake/task/cmake/build.py", line 110, in build
+    if await has_target(args.build_base, 'install'):
+  File "/usr/lib/python3/dist-packages/colcon_cmake/task/cmake/__init__.py", line 57, in has_target
+    return target in await get_makefile_targets(path)
+  File "/usr/lib/python3/dist-packages/colcon_cmake/task/cmake/__init__.py", line 77, in get_makefile_targets
+    output = await check_output([
+  File "/usr/lib/python3/dist-packages/colcon_core/subprocess.py", line 128, in check_output
+    assert not rc, f'Expected {args} to pass: {stderr_data}'
+AssertionError: Expected ['/usr/bin/cmake', '--build', '/home/april/workAreas/apriltag_ws/build/apriltag_msgs', '--target', 'help'] to pass: make: *** [Makefile:1143: help] Interrupt
+

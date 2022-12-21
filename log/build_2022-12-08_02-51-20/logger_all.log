@@ -1,0 +1,344 @@
+[2.696s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[2.720s] DEBUG:colcon:Parsed command line arguments: Namespace(allow_overriding=[], ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffff9db4f8b0>>, merge_install=False, metas=['./colcon.meta'], packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=4, paths=None, symlink_install=False, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffff9db4f8b0>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0xffff9db4fe20>)
+[3.320s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[3.320s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[3.321s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[3.321s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[3.321s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[3.322s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[3.322s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/april/workAreas/apriltag_ws'
+[3.323s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[3.324s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[3.325s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[3.325s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[3.325s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[3.326s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[3.326s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[3.326s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[3.327s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[3.526s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[3.539s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[3.543s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[3.543s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[3.554s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[3.556s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[3.558s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[3.559s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[3.561s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[3.567s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[3.567s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[3.587s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[3.588s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[3.589s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[3.590s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[3.591s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[3.593s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[3.594s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[3.595s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[3.595s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[3.595s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[3.596s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[3.596s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[3.597s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[3.598s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[3.598s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[3.599s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[3.599s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[3.600s] Level 1:colcon.colcon_core.package_identification:_identify(src/apriltag_msgs) by extensions ['ignore', 'ignore_ament_install']
+[3.601s] Level 1:colcon.colcon_core.package_identification:_identify(src/apriltag_msgs) by extension 'ignore'
+[3.602s] Level 1:colcon.colcon_core.package_identification:_identify(src/apriltag_msgs) by extension 'ignore_ament_install'
+[3.617s] Level 1:colcon.colcon_core.package_identification:_identify(src/apriltag_msgs) by extensions ['colcon_pkg']
+[3.618s] Level 1:colcon.colcon_core.package_identification:_identify(src/apriltag_msgs) by extension 'colcon_pkg'
+[3.618s] Level 1:colcon.colcon_core.package_identification:_identify(src/apriltag_msgs) by extensions ['colcon_meta']
+[3.625s] Level 1:colcon.colcon_core.package_identification:_identify(src/apriltag_msgs) by extension 'colcon_meta'
+[3.626s] Level 1:colcon.colcon_core.package_identification:_identify(src/apriltag_msgs) by extensions ['ros']
+[3.631s] Level 1:colcon.colcon_core.package_identification:_identify(src/apriltag_msgs) by extension 'ros'
+[3.674s] DEBUG:colcon.colcon_core.package_identification:Package 'src/apriltag_msgs' with type 'ros.ament_cmake' and name 'apriltag_msgs'
+[3.686s] Level 1:colcon.colcon_core.package_identification:_identify(src/apriltag_ros) by extensions ['ignore', 'ignore_ament_install']
+[3.686s] Level 1:colcon.colcon_core.package_identification:_identify(src/apriltag_ros) by extension 'ignore'
+[3.687s] Level 1:colcon.colcon_core.package_identification:_identify(src/apriltag_ros) by extension 'ignore_ament_install'
+[3.688s] Level 1:colcon.colcon_core.package_identification:_identify(src/apriltag_ros) by extensions ['colcon_pkg']
+[3.688s] Level 1:colcon.colcon_core.package_identification:_identify(src/apriltag_ros) by extension 'colcon_pkg'
+[3.688s] Level 1:colcon.colcon_core.package_identification:_identify(src/apriltag_ros) by extensions ['colcon_meta']
+[3.688s] Level 1:colcon.colcon_core.package_identification:_identify(src/apriltag_ros) by extension 'colcon_meta'
+[3.689s] Level 1:colcon.colcon_core.package_identification:_identify(src/apriltag_ros) by extensions ['ros']
+[3.690s] Level 1:colcon.colcon_core.package_identification:_identify(src/apriltag_ros) by extension 'ros'
+[3.785s] DEBUG:colcon.colcon_core.package_identification:Package 'src/apriltag_ros' with type 'ros.ament_cmake' and name 'apriltag_ros'
+[3.786s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_subscriber) by extensions ['ignore', 'ignore_ament_install']
+[3.787s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_subscriber) by extension 'ignore'
+[3.787s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_subscriber) by extension 'ignore_ament_install'
+[3.788s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_subscriber) by extensions ['colcon_pkg']
+[3.788s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_subscriber) by extension 'colcon_pkg'
+[3.788s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_subscriber) by extensions ['colcon_meta']
+[3.789s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_subscriber) by extension 'colcon_meta'
+[3.789s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_subscriber) by extensions ['ros']
+[3.789s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_subscriber) by extension 'ros'
+[3.846s] DEBUG:colcon.colcon_core.package_identification:Package 'src/cam_subscriber' with type 'ros.ament_python' and name 'cam_subscriber'
+[3.847s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_pysub) by extensions ['ignore', 'ignore_ament_install']
+[3.848s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_pysub) by extension 'ignore'
+[3.848s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_pysub) by extension 'ignore_ament_install'
+[3.849s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_pysub) by extensions ['colcon_pkg']
+[3.849s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_pysub) by extension 'colcon_pkg'
+[3.849s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_pysub) by extensions ['colcon_meta']
+[3.849s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_pysub) by extension 'colcon_meta'
+[3.850s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_pysub) by extensions ['ros']
+[3.850s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_pysub) by extension 'ros'
+[3.851s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_pysub) by extensions ['cmake', 'python']
+[3.851s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_pysub) by extension 'cmake'
+[3.852s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_pysub) by extension 'python'
+[3.852s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_pysub) by extensions ['python_setup_py']
+[3.852s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_pysub) by extension 'python_setup_py'
+[3.853s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_pysub/py_pysub) by extensions ['ignore', 'ignore_ament_install']
+[3.854s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_pysub/py_pysub) by extension 'ignore'
+[3.855s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_pysub/py_pysub) by extension 'ignore_ament_install'
+[3.855s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_pysub/py_pysub) by extensions ['colcon_pkg']
+[3.856s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_pysub/py_pysub) by extension 'colcon_pkg'
+[3.857s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_pysub/py_pysub) by extensions ['colcon_meta']
+[3.857s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_pysub/py_pysub) by extension 'colcon_meta'
+[3.858s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_pysub/py_pysub) by extensions ['ros']
+[3.858s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_pysub/py_pysub) by extension 'ros'
+[3.862s] DEBUG:colcon.colcon_core.package_identification:Package 'src/py_pysub/py_pysub' with type 'ros.ament_python' and name 'py_pysub'
+[3.862s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[3.863s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[3.863s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[3.863s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[3.863s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[4.577s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[4.578s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[4.689s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 4 installed packages in /home/april/workAreas/apriltag_ws/install
+[4.713s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 4 installed packages in /home/april/rosApril_ws/install
+[4.816s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 263 installed packages in /opt/ros/foxy
+[4.848s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[6.884s] Level 5:colcon.colcon_core.verb:set package 'apriltag_msgs' build argument 'cmake_args' from command line to 'None'
+[6.894s] Level 5:colcon.colcon_core.verb:set package 'apriltag_msgs' build argument 'cmake_target' from command line to 'None'
+[6.895s] Level 5:colcon.colcon_core.verb:set package 'apriltag_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[6.895s] Level 5:colcon.colcon_core.verb:set package 'apriltag_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[6.895s] Level 5:colcon.colcon_core.verb:set package 'apriltag_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[6.902s] Level 5:colcon.colcon_core.verb:set package 'apriltag_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[6.903s] Level 5:colcon.colcon_core.verb:set package 'apriltag_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[6.903s] Level 5:colcon.colcon_core.verb:set package 'apriltag_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[6.904s] Level 5:colcon.colcon_core.verb:set package 'apriltag_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[6.904s] DEBUG:colcon.colcon_core.verb:Building package 'apriltag_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/april/workAreas/apriltag_ws/build/apriltag_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/april/workAreas/apriltag_ws/install/apriltag_msgs', 'merge_install': False, 'path': '/home/april/workAreas/apriltag_ws/src/apriltag_msgs', 'symlink_install': False, 'test_result_base': None}
+[6.927s] Level 5:colcon.colcon_core.verb:set package 'py_pysub' build argument 'cmake_args' from command line to 'None'
+[6.927s] Level 5:colcon.colcon_core.verb:set package 'py_pysub' build argument 'cmake_target' from command line to 'None'
+[6.929s] Level 5:colcon.colcon_core.verb:set package 'py_pysub' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[6.930s] Level 5:colcon.colcon_core.verb:set package 'py_pysub' build argument 'cmake_clean_cache' from command line to 'False'
+[6.930s] Level 5:colcon.colcon_core.verb:set package 'py_pysub' build argument 'cmake_clean_first' from command line to 'False'
+[6.930s] Level 5:colcon.colcon_core.verb:set package 'py_pysub' build argument 'cmake_force_configure' from command line to 'False'
+[6.930s] Level 5:colcon.colcon_core.verb:set package 'py_pysub' build argument 'ament_cmake_args' from command line to 'None'
+[6.931s] Level 5:colcon.colcon_core.verb:set package 'py_pysub' build argument 'catkin_cmake_args' from command line to 'None'
+[6.931s] Level 5:colcon.colcon_core.verb:set package 'py_pysub' build argument 'catkin_skip_building_tests' from command line to 'False'
+[6.931s] DEBUG:colcon.colcon_core.verb:Building package 'py_pysub' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/april/workAreas/apriltag_ws/build/py_pysub', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/april/workAreas/apriltag_ws/install/py_pysub', 'merge_install': False, 'path': '/home/april/workAreas/apriltag_ws/src/py_pysub/py_pysub', 'symlink_install': False, 'test_result_base': None}
+[6.938s] Level 5:colcon.colcon_core.verb:set package 'apriltag_ros' build argument 'cmake_args' from command line to 'None'
+[6.939s] Level 5:colcon.colcon_core.verb:set package 'apriltag_ros' build argument 'cmake_target' from command line to 'None'
+[6.939s] Level 5:colcon.colcon_core.verb:set package 'apriltag_ros' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[6.939s] Level 5:colcon.colcon_core.verb:set package 'apriltag_ros' build argument 'cmake_clean_cache' from command line to 'False'
+[6.939s] Level 5:colcon.colcon_core.verb:set package 'apriltag_ros' build argument 'cmake_clean_first' from command line to 'False'
+[6.940s] Level 5:colcon.colcon_core.verb:set package 'apriltag_ros' build argument 'cmake_force_configure' from command line to 'False'
+[6.940s] Level 5:colcon.colcon_core.verb:set package 'apriltag_ros' build argument 'ament_cmake_args' from command line to 'None'
+[6.940s] Level 5:colcon.colcon_core.verb:set package 'apriltag_ros' build argument 'catkin_cmake_args' from command line to 'None'
+[6.940s] Level 5:colcon.colcon_core.verb:set package 'apriltag_ros' build argument 'catkin_skip_building_tests' from command line to 'False'
+[6.940s] DEBUG:colcon.colcon_core.verb:Building package 'apriltag_ros' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/april/workAreas/apriltag_ws/build/apriltag_ros', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/april/workAreas/apriltag_ws/install/apriltag_ros', 'merge_install': False, 'path': '/home/april/workAreas/apriltag_ws/src/apriltag_ros', 'symlink_install': False, 'test_result_base': None}
+[6.952s] Level 5:colcon.colcon_core.verb:set package 'cam_subscriber' build argument 'cmake_args' from command line to 'None'
+[6.952s] Level 5:colcon.colcon_core.verb:set package 'cam_subscriber' build argument 'cmake_target' from command line to 'None'
+[6.953s] Level 5:colcon.colcon_core.verb:set package 'cam_subscriber' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[6.954s] Level 5:colcon.colcon_core.verb:set package 'cam_subscriber' build argument 'cmake_clean_cache' from command line to 'False'
+[6.954s] Level 5:colcon.colcon_core.verb:set package 'cam_subscriber' build argument 'cmake_clean_first' from command line to 'False'
+[6.956s] Level 5:colcon.colcon_core.verb:set package 'cam_subscriber' build argument 'cmake_force_configure' from command line to 'False'
+[6.956s] Level 5:colcon.colcon_core.verb:set package 'cam_subscriber' build argument 'ament_cmake_args' from command line to 'None'
+[6.957s] Level 5:colcon.colcon_core.verb:set package 'cam_subscriber' build argument 'catkin_cmake_args' from command line to 'None'
+[6.958s] Level 5:colcon.colcon_core.verb:set package 'cam_subscriber' build argument 'catkin_skip_building_tests' from command line to 'False'
+[6.959s] DEBUG:colcon.colcon_core.verb:Building package 'cam_subscriber' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/april/workAreas/apriltag_ws/build/cam_subscriber', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/april/workAreas/apriltag_ws/install/cam_subscriber', 'merge_install': False, 'path': '/home/april/workAreas/apriltag_ws/src/cam_subscriber', 'symlink_install': False, 'test_result_base': None}
+[6.971s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[7.061s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[7.072s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/april/workAreas/apriltag_ws/src/apriltag_msgs' with build type 'ament_cmake'
+[7.074s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/april/workAreas/apriltag_ws/src/apriltag_msgs'
+[7.171s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[7.175s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[7.175s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[7.276s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/april/workAreas/apriltag_ws/src/py_pysub/py_pysub' with build type 'ament_python'
+[7.277s] Level 1:colcon.colcon_core.shell:create_environment_hook('py_pysub', 'ament_prefix_path')
+[7.290s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/april/workAreas/apriltag_ws/install/py_pysub/share/py_pysub/hook/ament_prefix_path.ps1'
+[7.304s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/april/workAreas/apriltag_ws/install/py_pysub/share/py_pysub/hook/ament_prefix_path.dsv'
+[7.308s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/april/workAreas/apriltag_ws/install/py_pysub/share/py_pysub/hook/ament_prefix_path.sh'
+[7.367s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[7.374s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[7.554s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/april/workAreas/apriltag_ws/build/apriltag_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/april/workAreas/apriltag_ws/install/py_pysub:/home/april/workAreas/apriltag_ws/install/cam_subscriber:/home/april/rosApril_ws/install/py_pysub:/home/april/rosApril_ws/install/cam_subscriber:/opt/ros/foxy /usr/bin/cmake --build /home/april/workAreas/apriltag_ws/build/apriltag_msgs -- -j4 -l4
+[11.905s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/april/workAreas/apriltag_ws/src/py_pysub/py_pysub'
+[11.956s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[11.957s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[14.665s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/april/workAreas/apriltag_ws/build/apriltag_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/april/workAreas/apriltag_ws/install/py_pysub:/home/april/workAreas/apriltag_ws/install/cam_subscriber:/home/april/rosApril_ws/install/py_pysub:/home/april/rosApril_ws/install/cam_subscriber:/opt/ros/foxy /usr/bin/cmake --build /home/april/workAreas/apriltag_ws/build/apriltag_msgs -- -j4 -l4
+[16.371s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/april/workAreas/apriltag_ws/src/py_pysub/py_pysub': PYTHONPATH=/home/april/workAreas/apriltag_ws/build/py_pysub/prefix_override:/home/april/workAreas/apriltag_ws/install/py_pysub/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/py_pysub build --build-base /home/april/workAreas/apriltag_ws/build/py_pysub/build install --record /home/april/workAreas/apriltag_ws/build/py_pysub/install.log --install-scripts $base/lib/py_pysub --single-version-externally-managed
+[17.012s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/april/workAreas/apriltag_ws/build/apriltag_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/april/workAreas/apriltag_ws/install/py_pysub:/home/april/workAreas/apriltag_ws/install/cam_subscriber:/home/april/rosApril_ws/install/py_pysub:/home/april/rosApril_ws/install/cam_subscriber:/opt/ros/foxy /usr/bin/cmake --install /home/april/workAreas/apriltag_ws/build/apriltag_msgs
+[18.107s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(apriltag_msgs)
+[18.291s] Level 1:colcon.colcon_core.environment:checking '/home/april/workAreas/apriltag_ws/install/apriltag_msgs' for CMake module files
+[18.311s] Level 1:colcon.colcon_core.environment:checking '/home/april/workAreas/apriltag_ws/install/apriltag_msgs' for CMake config files
+[18.341s] Level 1:colcon.colcon_core.shell:create_environment_hook('apriltag_msgs', 'cmake_prefix_path')
+[18.375s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/april/workAreas/apriltag_ws/install/apriltag_msgs/share/apriltag_msgs/hook/cmake_prefix_path.ps1'
+[18.387s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/april/workAreas/apriltag_ws/install/apriltag_msgs/share/apriltag_msgs/hook/cmake_prefix_path.dsv'
+[18.394s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/april/workAreas/apriltag_ws/build/apriltag_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/april/workAreas/apriltag_ws/install/py_pysub:/home/april/workAreas/apriltag_ws/install/cam_subscriber:/home/april/rosApril_ws/install/py_pysub:/home/april/rosApril_ws/install/cam_subscriber:/opt/ros/foxy /usr/bin/cmake --install /home/april/workAreas/apriltag_ws/build/apriltag_msgs
+[18.404s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/april/workAreas/apriltag_ws/install/apriltag_msgs/share/apriltag_msgs/hook/cmake_prefix_path.sh'
+[18.409s] Level 1:colcon.colcon_core.environment:checking '/home/april/workAreas/apriltag_ws/install/apriltag_msgs/lib'
+[18.411s] Level 1:colcon.colcon_core.shell:create_environment_hook('apriltag_msgs', 'ld_library_path_lib')
+[18.420s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/april/workAreas/apriltag_ws/install/apriltag_msgs/share/apriltag_msgs/hook/ld_library_path_lib.ps1'
+[18.423s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/april/workAreas/apriltag_ws/install/apriltag_msgs/share/apriltag_msgs/hook/ld_library_path_lib.dsv'
+[18.426s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/april/workAreas/apriltag_ws/install/apriltag_msgs/share/apriltag_msgs/hook/ld_library_path_lib.sh'
+[18.428s] Level 1:colcon.colcon_core.environment:checking '/home/april/workAreas/apriltag_ws/install/apriltag_msgs/bin'
+[18.429s] Level 1:colcon.colcon_core.environment:checking '/home/april/workAreas/apriltag_ws/install/apriltag_msgs/lib/pkgconfig/apriltag_msgs.pc'
+[18.430s] Level 1:colcon.colcon_core.environment:checking '/home/april/workAreas/apriltag_ws/install/apriltag_msgs/lib/python3.8/site-packages'
+[18.431s] Level 1:colcon.colcon_core.shell:create_environment_hook('apriltag_msgs', 'pythonpath')
+[18.454s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/april/workAreas/apriltag_ws/install/apriltag_msgs/share/apriltag_msgs/hook/pythonpath.ps1'
+[18.459s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/april/workAreas/apriltag_ws/install/apriltag_msgs/share/apriltag_msgs/hook/pythonpath.dsv'
+[18.462s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/april/workAreas/apriltag_ws/install/apriltag_msgs/share/apriltag_msgs/hook/pythonpath.sh'
+[18.467s] Level 1:colcon.colcon_core.environment:checking '/home/april/workAreas/apriltag_ws/install/apriltag_msgs/bin'
+[18.478s] INFO:colcon.colcon_core.shell:Creating package script '/home/april/workAreas/apriltag_ws/install/apriltag_msgs/share/apriltag_msgs/package.ps1'
+[18.483s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/april/workAreas/apriltag_ws/install/apriltag_msgs/share/apriltag_msgs/package.dsv'
+[18.487s] INFO:colcon.colcon_core.shell:Creating package script '/home/april/workAreas/apriltag_ws/install/apriltag_msgs/share/apriltag_msgs/package.sh'
+[18.492s] INFO:colcon.colcon_core.shell:Creating package script '/home/april/workAreas/apriltag_ws/install/apriltag_msgs/share/apriltag_msgs/package.bash'
+[18.497s] INFO:colcon.colcon_core.shell:Creating package script '/home/april/workAreas/apriltag_ws/install/apriltag_msgs/share/apriltag_msgs/package.zsh'
+[18.503s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/april/workAreas/apriltag_ws/install/apriltag_msgs/share/colcon-core/packages/apriltag_msgs)
+[21.161s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(apriltag_msgs)
+[21.208s] Level 1:colcon.colcon_core.environment:checking '/home/april/workAreas/apriltag_ws/install/apriltag_msgs' for CMake module files
+[21.213s] Level 1:colcon.colcon_core.environment:checking '/home/april/workAreas/apriltag_ws/install/apriltag_msgs' for CMake config files
+[21.220s] Level 1:colcon.colcon_core.shell:create_environment_hook('apriltag_msgs', 'cmake_prefix_path')
+[21.254s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/april/workAreas/apriltag_ws/install/apriltag_msgs/share/apriltag_msgs/hook/cmake_prefix_path.ps1'
+[21.258s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/april/workAreas/apriltag_ws/install/apriltag_msgs/share/apriltag_msgs/hook/cmake_prefix_path.dsv'
+[21.262s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/april/workAreas/apriltag_ws/install/apriltag_msgs/share/apriltag_msgs/hook/cmake_prefix_path.sh'
+[21.268s] Level 1:colcon.colcon_core.environment:checking '/home/april/workAreas/apriltag_ws/install/apriltag_msgs/lib'
+[21.269s] Level 1:colcon.colcon_core.shell:create_environment_hook('apriltag_msgs', 'ld_library_path_lib')
+[21.280s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/april/workAreas/apriltag_ws/install/apriltag_msgs/share/apriltag_msgs/hook/ld_library_path_lib.ps1'
+[21.284s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/april/workAreas/apriltag_ws/install/apriltag_msgs/share/apriltag_msgs/hook/ld_library_path_lib.dsv'
+[21.288s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/april/workAreas/apriltag_ws/install/apriltag_msgs/share/apriltag_msgs/hook/ld_library_path_lib.sh'
+[21.292s] Level 1:colcon.colcon_core.environment:checking '/home/april/workAreas/apriltag_ws/install/apriltag_msgs/bin'
+[21.292s] Level 1:colcon.colcon_core.environment:checking '/home/april/workAreas/apriltag_ws/install/apriltag_msgs/lib/pkgconfig/apriltag_msgs.pc'
+[21.294s] Level 1:colcon.colcon_core.environment:checking '/home/april/workAreas/apriltag_ws/install/apriltag_msgs/lib/python3.8/site-packages'
+[21.297s] Level 1:colcon.colcon_core.shell:create_environment_hook('apriltag_msgs', 'pythonpath')
+[21.317s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/april/workAreas/apriltag_ws/install/apriltag_msgs/share/apriltag_msgs/hook/pythonpath.ps1'
+[21.321s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/april/workAreas/apriltag_ws/install/apriltag_msgs/share/apriltag_msgs/hook/pythonpath.dsv'
+[21.345s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/april/workAreas/apriltag_ws/install/apriltag_msgs/share/apriltag_msgs/hook/pythonpath.sh'
+[21.378s] Level 1:colcon.colcon_core.environment:checking '/home/april/workAreas/apriltag_ws/install/apriltag_msgs/bin'
+[21.394s] INFO:colcon.colcon_core.shell:Creating package script '/home/april/workAreas/apriltag_ws/install/apriltag_msgs/share/apriltag_msgs/package.ps1'
+[21.410s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/april/workAreas/apriltag_ws/install/apriltag_msgs/share/apriltag_msgs/package.dsv'
+[21.418s] INFO:colcon.colcon_core.shell:Creating package script '/home/april/workAreas/apriltag_ws/install/apriltag_msgs/share/apriltag_msgs/package.sh'
+[21.424s] INFO:colcon.colcon_core.shell:Creating package script '/home/april/workAreas/apriltag_ws/install/apriltag_msgs/share/apriltag_msgs/package.bash'
+[21.427s] INFO:colcon.colcon_core.shell:Creating package script '/home/april/workAreas/apriltag_ws/install/apriltag_msgs/share/apriltag_msgs/package.zsh'
+[21.431s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/april/workAreas/apriltag_ws/install/apriltag_msgs/share/colcon-core/packages/apriltag_msgs)
+[21.448s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/april/workAreas/apriltag_ws/src/apriltag_ros' with build type 'ament_cmake'
+[21.453s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/april/workAreas/apriltag_ws/src/apriltag_ros'
+[21.463s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[21.464s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[21.572s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/april/workAreas/apriltag_ws/src/cam_subscriber' with build type 'ament_python'
+[21.573s] Level 1:colcon.colcon_core.shell:create_environment_hook('cam_subscriber', 'ament_prefix_path')
+[21.582s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/april/workAreas/apriltag_ws/install/cam_subscriber/share/cam_subscriber/hook/ament_prefix_path.ps1'
+[21.596s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/april/workAreas/apriltag_ws/install/cam_subscriber/share/cam_subscriber/hook/ament_prefix_path.dsv'
+[21.600s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/april/workAreas/apriltag_ws/install/cam_subscriber/share/cam_subscriber/hook/ament_prefix_path.sh'
+[21.626s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[21.627s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[21.750s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/april/workAreas/apriltag_ws/src/py_pysub/py_pysub' returned '0': PYTHONPATH=/home/april/workAreas/apriltag_ws/build/py_pysub/prefix_override:/home/april/workAreas/apriltag_ws/install/py_pysub/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/py_pysub build --build-base /home/april/workAreas/apriltag_ws/build/py_pysub/build install --record /home/april/workAreas/apriltag_ws/build/py_pysub/install.log --install-scripts $base/lib/py_pysub --single-version-externally-managed
+[21.775s] Level 1:colcon.colcon_core.environment:checking '/home/april/workAreas/apriltag_ws/install/py_pysub' for CMake module files
+[21.778s] Level 1:colcon.colcon_core.environment:checking '/home/april/workAreas/apriltag_ws/install/py_pysub' for CMake config files
+[21.790s] Level 1:colcon.colcon_core.environment:checking '/home/april/workAreas/apriltag_ws/install/py_pysub/lib'
+[21.791s] Level 1:colcon.colcon_core.environment:checking '/home/april/workAreas/apriltag_ws/install/py_pysub/bin'
+[21.792s] Level 1:colcon.colcon_core.environment:checking '/home/april/workAreas/apriltag_ws/install/py_pysub/lib/pkgconfig/py_pysub.pc'
+[21.793s] Level 1:colcon.colcon_core.environment:checking '/home/april/workAreas/apriltag_ws/install/py_pysub/lib/python3.8/site-packages'
+[21.794s] Level 1:colcon.colcon_core.shell:create_environment_hook('py_pysub', 'pythonpath')
+[21.836s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/april/workAreas/apriltag_ws/install/py_pysub/share/py_pysub/hook/pythonpath.ps1'
+[21.847s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/april/workAreas/apriltag_ws/install/py_pysub/share/py_pysub/hook/pythonpath.dsv'
+[21.869s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/april/workAreas/apriltag_ws/install/py_pysub/share/py_pysub/hook/pythonpath.sh'
+[21.873s] Level 1:colcon.colcon_core.environment:checking '/home/april/workAreas/apriltag_ws/install/py_pysub/bin'
+[21.874s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(py_pysub)
+[21.891s] INFO:colcon.colcon_core.shell:Creating package script '/home/april/workAreas/apriltag_ws/install/py_pysub/share/py_pysub/package.ps1'
+[21.896s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/april/workAreas/apriltag_ws/install/py_pysub/share/py_pysub/package.dsv'
+[21.900s] INFO:colcon.colcon_core.shell:Creating package script '/home/april/workAreas/apriltag_ws/install/py_pysub/share/py_pysub/package.sh'
+[21.904s] INFO:colcon.colcon_core.shell:Creating package script '/home/april/workAreas/apriltag_ws/install/py_pysub/share/py_pysub/package.bash'
+[21.906s] INFO:colcon.colcon_core.shell:Creating package script '/home/april/workAreas/apriltag_ws/install/py_pysub/share/py_pysub/package.zsh'
+[21.909s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/april/workAreas/apriltag_ws/install/py_pysub/share/colcon-core/packages/py_pysub)
+[21.934s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/april/workAreas/apriltag_ws/build/apriltag_ros': CMAKE_PREFIX_PATH=/home/april/workAreas/apriltag_ws/install/apriltag_msgs:/home/april/workAreas/apriltag_ws/install/apriltag_ros:/home/april/rosApril_ws/install/apriltag_ros:/home/april/rosApril_ws/install/apriltag_msgs:/home/april/workAreas/apriltag_ws/install/py_pysub:/home/april/workAreas/apriltag_ws/install/cam_subscriber:/home/april/rosApril_ws/install/py_pysub:/home/april/rosApril_ws/install/cam_subscriber:/opt/ros/foxy LD_LIBRARY_PATH=/home/april/workAreas/apriltag_ws/install/apriltag_msgs/lib:/home/april/workAreas/apriltag_ws/install/apriltag_ros/lib:/home/april/rosApril_ws/install/apriltag_ros/lib:/home/april/rosApril_ws/install/apriltag_msgs/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib PYTHONPATH=/home/april/workAreas/apriltag_ws/install/apriltag_msgs/lib/python3.8/site-packages:/home/april/workAreas/apriltag_ws/install/py_pysub/lib/python3.8/site-packages:/home/april/workAreas/apriltag_ws/install/cam_subscriber/lib/python3.8/site-packages:/home/april/rosApril_ws/install/py_pysub/lib/python3.8/site-packages:/home/april/rosApril_ws/install/cam_subscriber/lib/python3.8/site-packages:/home/april/rosApril_ws/install/apriltag_msgs/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/cmake --build /home/april/workAreas/apriltag_ws/build/apriltag_ros -- -j4 -l4
+[25.307s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/april/workAreas/apriltag_ws/src/cam_subscriber'
+[25.321s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[25.321s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[25.403s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/april/workAreas/apriltag_ws/build/apriltag_ros' returned '0': CMAKE_PREFIX_PATH=/home/april/workAreas/apriltag_ws/install/apriltag_msgs:/home/april/workAreas/apriltag_ws/install/apriltag_ros:/home/april/rosApril_ws/install/apriltag_ros:/home/april/rosApril_ws/install/apriltag_msgs:/home/april/workAreas/apriltag_ws/install/py_pysub:/home/april/workAreas/apriltag_ws/install/cam_subscriber:/home/april/rosApril_ws/install/py_pysub:/home/april/rosApril_ws/install/cam_subscriber:/opt/ros/foxy LD_LIBRARY_PATH=/home/april/workAreas/apriltag_ws/install/apriltag_msgs/lib:/home/april/workAreas/apriltag_ws/install/apriltag_ros/lib:/home/april/rosApril_ws/install/apriltag_ros/lib:/home/april/rosApril_ws/install/apriltag_msgs/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib PYTHONPATH=/home/april/workAreas/apriltag_ws/install/apriltag_msgs/lib/python3.8/site-packages:/home/april/workAreas/apriltag_ws/install/py_pysub/lib/python3.8/site-packages:/home/april/workAreas/apriltag_ws/install/cam_subscriber/lib/python3.8/site-packages:/home/april/rosApril_ws/install/py_pysub/lib/python3.8/site-packages:/home/april/rosApril_ws/install/cam_subscriber/lib/python3.8/site-packages:/home/april/rosApril_ws/install/apriltag_msgs/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/cmake --build /home/april/workAreas/apriltag_ws/build/apriltag_ros -- -j4 -l4
+[26.105s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/april/workAreas/apriltag_ws/build/apriltag_ros': CMAKE_PREFIX_PATH=/home/april/workAreas/apriltag_ws/install/apriltag_msgs:/home/april/workAreas/apriltag_ws/install/apriltag_ros:/home/april/rosApril_ws/install/apriltag_ros:/home/april/rosApril_ws/install/apriltag_msgs:/home/april/workAreas/apriltag_ws/install/py_pysub:/home/april/workAreas/apriltag_ws/install/cam_subscriber:/home/april/rosApril_ws/install/py_pysub:/home/april/rosApril_ws/install/cam_subscriber:/opt/ros/foxy LD_LIBRARY_PATH=/home/april/workAreas/apriltag_ws/install/apriltag_msgs/lib:/home/april/workAreas/apriltag_ws/install/apriltag_ros/lib:/home/april/rosApril_ws/install/apriltag_ros/lib:/home/april/rosApril_ws/install/apriltag_msgs/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib PYTHONPATH=/home/april/workAreas/apriltag_ws/install/apriltag_msgs/lib/python3.8/site-packages:/home/april/workAreas/apriltag_ws/install/py_pysub/lib/python3.8/site-packages:/home/april/workAreas/apriltag_ws/install/cam_subscriber/lib/python3.8/site-packages:/home/april/rosApril_ws/install/py_pysub/lib/python3.8/site-packages:/home/april/rosApril_ws/install/cam_subscriber/lib/python3.8/site-packages:/home/april/rosApril_ws/install/apriltag_msgs/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/cmake --install /home/april/workAreas/apriltag_ws/build/apriltag_ros
+[26.525s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(apriltag_ros)
+[26.555s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/april/workAreas/apriltag_ws/build/apriltag_ros' returned '0': CMAKE_PREFIX_PATH=/home/april/workAreas/apriltag_ws/install/apriltag_msgs:/home/april/workAreas/apriltag_ws/install/apriltag_ros:/home/april/rosApril_ws/install/apriltag_ros:/home/april/rosApril_ws/install/apriltag_msgs:/home/april/workAreas/apriltag_ws/install/py_pysub:/home/april/workAreas/apriltag_ws/install/cam_subscriber:/home/april/rosApril_ws/install/py_pysub:/home/april/rosApril_ws/install/cam_subscriber:/opt/ros/foxy LD_LIBRARY_PATH=/home/april/workAreas/apriltag_ws/install/apriltag_msgs/lib:/home/april/workAreas/apriltag_ws/install/apriltag_ros/lib:/home/april/rosApril_ws/install/apriltag_ros/lib:/home/april/rosApril_ws/install/apriltag_msgs/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib PYTHONPATH=/home/april/workAreas/apriltag_ws/install/apriltag_msgs/lib/python3.8/site-packages:/home/april/workAreas/apriltag_ws/install/py_pysub/lib/python3.8/site-packages:/home/april/workAreas/apriltag_ws/install/cam_subscriber/lib/python3.8/site-packages:/home/april/rosApril_ws/install/py_pysub/lib/python3.8/site-packages:/home/april/rosApril_ws/install/cam_subscriber/lib/python3.8/site-packages:/home/april/rosApril_ws/install/apriltag_msgs/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/cmake --install /home/april/workAreas/apriltag_ws/build/apriltag_ros
+[26.563s] Level 1:colcon.colcon_core.environment:checking '/home/april/workAreas/apriltag_ws/install/apriltag_ros' for CMake module files
+[26.576s] Level 1:colcon.colcon_core.environment:checking '/home/april/workAreas/apriltag_ws/install/apriltag_ros' for CMake config files
+[26.582s] Level 1:colcon.colcon_core.shell:create_environment_hook('apriltag_ros', 'cmake_prefix_path')
+[26.601s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/april/workAreas/apriltag_ws/install/apriltag_ros/share/apriltag_ros/hook/cmake_prefix_path.ps1'
+[26.605s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/april/workAreas/apriltag_ws/install/apriltag_ros/share/apriltag_ros/hook/cmake_prefix_path.dsv'
+[26.607s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/april/workAreas/apriltag_ws/install/apriltag_ros/share/apriltag_ros/hook/cmake_prefix_path.sh'
+[26.611s] Level 1:colcon.colcon_core.environment:checking '/home/april/workAreas/apriltag_ws/install/apriltag_ros/lib'
+[26.611s] Level 1:colcon.colcon_core.shell:create_environment_hook('apriltag_ros', 'ld_library_path_lib')
+[26.620s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/april/workAreas/apriltag_ws/install/apriltag_ros/share/apriltag_ros/hook/ld_library_path_lib.ps1'
+[26.624s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/april/workAreas/apriltag_ws/install/apriltag_ros/share/apriltag_ros/hook/ld_library_path_lib.dsv'
+[26.629s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/april/workAreas/apriltag_ws/install/apriltag_ros/share/apriltag_ros/hook/ld_library_path_lib.sh'
+[26.635s] Level 1:colcon.colcon_core.environment:checking '/home/april/workAreas/apriltag_ws/install/apriltag_ros/bin'
+[26.637s] Level 1:colcon.colcon_core.environment:checking '/home/april/workAreas/apriltag_ws/install/apriltag_ros/lib/pkgconfig/apriltag_ros.pc'
+[26.642s] Level 1:colcon.colcon_core.environment:checking '/home/april/workAreas/apriltag_ws/install/apriltag_ros/lib/python3.8/site-packages'
+[26.644s] Level 1:colcon.colcon_core.environment:checking '/home/april/workAreas/apriltag_ws/install/apriltag_ros/bin'
+[26.713s] INFO:colcon.colcon_core.shell:Creating package script '/home/april/workAreas/apriltag_ws/install/apriltag_ros/share/apriltag_ros/package.ps1'
+[26.718s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/april/workAreas/apriltag_ws/install/apriltag_ros/share/apriltag_ros/package.dsv'
+[26.731s] INFO:colcon.colcon_core.shell:Creating package script '/home/april/workAreas/apriltag_ws/install/apriltag_ros/share/apriltag_ros/package.sh'
+[26.738s] INFO:colcon.colcon_core.shell:Creating package script '/home/april/workAreas/apriltag_ws/install/apriltag_ros/share/apriltag_ros/package.bash'
+[26.741s] INFO:colcon.colcon_core.shell:Creating package script '/home/april/workAreas/apriltag_ws/install/apriltag_ros/share/apriltag_ros/package.zsh'
+[26.745s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/april/workAreas/apriltag_ws/install/apriltag_ros/share/colcon-core/packages/apriltag_ros)
+[27.284s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(apriltag_ros)
+[27.302s] Level 1:colcon.colcon_core.environment:checking '/home/april/workAreas/apriltag_ws/install/apriltag_ros' for CMake module files
+[27.306s] Level 1:colcon.colcon_core.environment:checking '/home/april/workAreas/apriltag_ws/install/apriltag_ros' for CMake config files
+[27.308s] Level 1:colcon.colcon_core.shell:create_environment_hook('apriltag_ros', 'cmake_prefix_path')
+[27.317s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/april/workAreas/apriltag_ws/install/apriltag_ros/share/apriltag_ros/hook/cmake_prefix_path.ps1'
+[27.320s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/april/workAreas/apriltag_ws/install/apriltag_ros/share/apriltag_ros/hook/cmake_prefix_path.dsv'
+[27.322s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/april/workAreas/apriltag_ws/install/apriltag_ros/share/apriltag_ros/hook/cmake_prefix_path.sh'
+[27.328s] Level 1:colcon.colcon_core.environment:checking '/home/april/workAreas/apriltag_ws/install/apriltag_ros/lib'
+[27.329s] Level 1:colcon.colcon_core.shell:create_environment_hook('apriltag_ros', 'ld_library_path_lib')
+[27.339s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/april/workAreas/apriltag_ws/install/apriltag_ros/share/apriltag_ros/hook/ld_library_path_lib.ps1'
+[27.342s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/april/workAreas/apriltag_ws/install/apriltag_ros/share/apriltag_ros/hook/ld_library_path_lib.dsv'
+[27.345s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/april/workAreas/apriltag_ws/install/apriltag_ros/share/apriltag_ros/hook/ld_library_path_lib.sh'
+[27.349s] Level 1:colcon.colcon_core.environment:checking '/home/april/workAreas/apriltag_ws/install/apriltag_ros/bin'
+[27.349s] Level 1:colcon.colcon_core.environment:checking '/home/april/workAreas/apriltag_ws/install/apriltag_ros/lib/pkgconfig/apriltag_ros.pc'
+[27.351s] Level 1:colcon.colcon_core.environment:checking '/home/april/workAreas/apriltag_ws/install/apriltag_ros/lib/python3.8/site-packages'
+[27.352s] Level 1:colcon.colcon_core.environment:checking '/home/april/workAreas/apriltag_ws/install/apriltag_ros/bin'
+[27.364s] INFO:colcon.colcon_core.shell:Creating package script '/home/april/workAreas/apriltag_ws/install/apriltag_ros/share/apriltag_ros/package.ps1'
+[27.370s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/april/workAreas/apriltag_ws/install/apriltag_ros/share/apriltag_ros/package.dsv'
+[27.374s] INFO:colcon.colcon_core.shell:Creating package script '/home/april/workAreas/apriltag_ws/install/apriltag_ros/share/apriltag_ros/package.sh'
+[27.377s] INFO:colcon.colcon_core.shell:Creating package script '/home/april/workAreas/apriltag_ws/install/apriltag_ros/share/apriltag_ros/package.bash'
+[27.381s] INFO:colcon.colcon_core.shell:Creating package script '/home/april/workAreas/apriltag_ws/install/apriltag_ros/share/apriltag_ros/package.zsh'
+[27.385s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/april/workAreas/apriltag_ws/install/apriltag_ros/share/colcon-core/packages/apriltag_ros)
+[29.588s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/april/workAreas/apriltag_ws/src/cam_subscriber': CMAKE_PREFIX_PATH=/home/april/workAreas/apriltag_ws/install/apriltag_msgs:/home/april/workAreas/apriltag_ws/install/apriltag_ros:/home/april/rosApril_ws/install/apriltag_ros:/home/april/rosApril_ws/install/apriltag_msgs LD_LIBRARY_PATH=/home/april/workAreas/apriltag_ws/install/apriltag_msgs/lib:/home/april/workAreas/apriltag_ws/install/apriltag_ros/lib:/home/april/rosApril_ws/install/apriltag_ros/lib:/home/april/rosApril_ws/install/apriltag_msgs/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib PYTHONPATH=/home/april/workAreas/apriltag_ws/build/cam_subscriber/prefix_override:/home/april/workAreas/apriltag_ws/install/cam_subscriber/lib/python3.8/site-packages:/home/april/workAreas/apriltag_ws/install/apriltag_msgs/lib/python3.8/site-packages:/home/april/workAreas/apriltag_ws/install/py_pysub/lib/python3.8/site-packages:/home/april/workAreas/apriltag_ws/install/cam_subscriber/lib/python3.8/site-packages:/home/april/rosApril_ws/install/py_pysub/lib/python3.8/site-packages:/home/april/rosApril_ws/install/cam_subscriber/lib/python3.8/site-packages:/home/april/rosApril_ws/install/apriltag_msgs/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/python3 setup.py egg_info --egg-base ../../build/cam_subscriber build --build-base /home/april/workAreas/apriltag_ws/build/cam_subscriber/build install --record /home/april/workAreas/apriltag_ws/build/cam_subscriber/install.log --install-scripts $base/lib/cam_subscriber --single-version-externally-managed
+[33.346s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/april/workAreas/apriltag_ws/src/cam_subscriber' returned '0': CMAKE_PREFIX_PATH=/home/april/workAreas/apriltag_ws/install/apriltag_msgs:/home/april/workAreas/apriltag_ws/install/apriltag_ros:/home/april/rosApril_ws/install/apriltag_ros:/home/april/rosApril_ws/install/apriltag_msgs LD_LIBRARY_PATH=/home/april/workAreas/apriltag_ws/install/apriltag_msgs/lib:/home/april/workAreas/apriltag_ws/install/apriltag_ros/lib:/home/april/rosApril_ws/install/apriltag_ros/lib:/home/april/rosApril_ws/install/apriltag_msgs/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib PYTHONPATH=/home/april/workAreas/apriltag_ws/build/cam_subscriber/prefix_override:/home/april/workAreas/apriltag_ws/install/cam_subscriber/lib/python3.8/site-packages:/home/april/workAreas/apriltag_ws/install/apriltag_msgs/lib/python3.8/site-packages:/home/april/workAreas/apriltag_ws/install/py_pysub/lib/python3.8/site-packages:/home/april/workAreas/apriltag_ws/install/cam_subscriber/lib/python3.8/site-packages:/home/april/rosApril_ws/install/py_pysub/lib/python3.8/site-packages:/home/april/rosApril_ws/install/cam_subscriber/lib/python3.8/site-packages:/home/april/rosApril_ws/install/apriltag_msgs/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/python3 setup.py egg_info --egg-base ../../build/cam_subscriber build --build-base /home/april/workAreas/apriltag_ws/build/cam_subscriber/build install --record /home/april/workAreas/apriltag_ws/build/cam_subscriber/install.log --install-scripts $base/lib/cam_subscriber --single-version-externally-managed
+[33.356s] Level 1:colcon.colcon_core.environment:checking '/home/april/workAreas/apriltag_ws/install/cam_subscriber' for CMake module files
+[33.369s] Level 1:colcon.colcon_core.environment:checking '/home/april/workAreas/apriltag_ws/install/cam_subscriber' for CMake config files
+[33.379s] Level 1:colcon.colcon_core.environment:checking '/home/april/workAreas/apriltag_ws/install/cam_subscriber/lib'
+[33.380s] Level 1:colcon.colcon_core.environment:checking '/home/april/workAreas/apriltag_ws/install/cam_subscriber/bin'
+[33.381s] Level 1:colcon.colcon_core.environment:checking '/home/april/workAreas/apriltag_ws/install/cam_subscriber/lib/pkgconfig/cam_subscriber.pc'
+[33.383s] Level 1:colcon.colcon_core.environment:checking '/home/april/workAreas/apriltag_ws/install/cam_subscriber/lib/python3.8/site-packages'
+[33.384s] Level 1:colcon.colcon_core.shell:create_environment_hook('cam_subscriber', 'pythonpath')
+[33.410s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/april/workAreas/apriltag_ws/install/cam_subscriber/share/cam_subscriber/hook/pythonpath.ps1'
+[33.426s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/april/workAreas/apriltag_ws/install/cam_subscriber/share/cam_subscriber/hook/pythonpath.dsv'
+[33.438s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/april/workAreas/apriltag_ws/install/cam_subscriber/share/cam_subscriber/hook/pythonpath.sh'
+[33.443s] Level 1:colcon.colcon_core.environment:checking '/home/april/workAreas/apriltag_ws/install/cam_subscriber/bin'
+[33.443s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cam_subscriber)
+[33.467s] INFO:colcon.colcon_core.shell:Creating package script '/home/april/workAreas/apriltag_ws/install/cam_subscriber/share/cam_subscriber/package.ps1'
+[33.479s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/april/workAreas/apriltag_ws/install/cam_subscriber/share/cam_subscriber/package.dsv'
+[33.492s] INFO:colcon.colcon_core.shell:Creating package script '/home/april/workAreas/apriltag_ws/install/cam_subscriber/share/cam_subscriber/package.sh'
+[33.500s] INFO:colcon.colcon_core.shell:Creating package script '/home/april/workAreas/apriltag_ws/install/cam_subscriber/share/cam_subscriber/package.bash'
+[33.505s] INFO:colcon.colcon_core.shell:Creating package script '/home/april/workAreas/apriltag_ws/install/cam_subscriber/share/cam_subscriber/package.zsh'
+[33.508s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/april/workAreas/apriltag_ws/install/cam_subscriber/share/colcon-core/packages/cam_subscriber)
+[33.514s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[33.516s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[33.516s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[33.518s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[33.593s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[33.594s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[33.595s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[33.810s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[33.820s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/april/workAreas/apriltag_ws/install/local_setup.ps1'
+[33.834s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/april/workAreas/apriltag_ws/install/_local_setup_util_ps1.py'
+[33.845s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/april/workAreas/apriltag_ws/install/setup.ps1'
+[33.872s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/april/workAreas/apriltag_ws/install/local_setup.sh'
+[33.886s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/april/workAreas/apriltag_ws/install/_local_setup_util_sh.py'
+[33.894s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/april/workAreas/apriltag_ws/install/setup.sh'
+[33.916s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/april/workAreas/apriltag_ws/install/local_setup.bash'
+[33.927s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/april/workAreas/apriltag_ws/install/setup.bash'
+[34.058s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/april/workAreas/apriltag_ws/install/local_setup.zsh'
+[34.069s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/april/workAreas/apriltag_ws/install/setup.zsh'

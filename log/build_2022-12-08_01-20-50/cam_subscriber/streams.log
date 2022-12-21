@@ -1,0 +1,21 @@
+[3.880s] Invoking command in '/home/april/workAreas/apriltag_ws/src/cam_subscriber': AMENT_PREFIX_PATH=/home/april/workAreas/apriltag_ws/install/apriltag_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/april/workAreas/apriltag_ws/install/apriltag_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/april/workAreas/apriltag_ws/install/apriltag_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/april/workAreas/apriltag_ws/build/cam_subscriber/prefix_override:/home/april/workAreas/apriltag_ws/install/cam_subscriber/lib/python3.8/site-packages:/home/april/workAreas/apriltag_ws/install/apriltag_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/cam_subscriber build --build-base /home/april/workAreas/apriltag_ws/build/cam_subscriber/build install --record /home/april/workAreas/apriltag_ws/build/cam_subscriber/install.log --install-scripts $base/lib/cam_subscriber --single-version-externally-managed
+[4.926s] running egg_info
+[4.930s] writing ../../build/cam_subscriber/cam_subscriber.egg-info/PKG-INFO
+[4.931s] writing dependency_links to ../../build/cam_subscriber/cam_subscriber.egg-info/dependency_links.txt
+[4.932s] writing entry points to ../../build/cam_subscriber/cam_subscriber.egg-info/entry_points.txt
+[4.932s] writing requirements to ../../build/cam_subscriber/cam_subscriber.egg-info/requires.txt
+[4.933s] writing top-level names to ../../build/cam_subscriber/cam_subscriber.egg-info/top_level.txt
+[5.088s] reading manifest file '../../build/cam_subscriber/cam_subscriber.egg-info/SOURCES.txt'
+[5.092s] writing manifest file '../../build/cam_subscriber/cam_subscriber.egg-info/SOURCES.txt'
+[5.092s] running build
+[5.093s] running build_py
+[5.094s] running install
+[5.097s] running install_lib
+[5.103s] running install_data
+[5.105s] running install_egg_info
+[5.112s] removing '/home/april/workAreas/apriltag_ws/install/cam_subscriber/lib/python3.8/site-packages/cam_subscriber-0.0.0-py3.8.egg-info' (and everything under it)
+[5.113s] Copying ../../build/cam_subscriber/cam_subscriber.egg-info to /home/april/workAreas/apriltag_ws/install/cam_subscriber/lib/python3.8/site-packages/cam_subscriber-0.0.0-py3.8.egg-info
+[5.118s] running install_scripts
+[5.193s] Installing listener script to /home/april/workAreas/apriltag_ws/install/cam_subscriber/lib/cam_subscriber
+[5.195s] writing list of installed files to '/home/april/workAreas/apriltag_ws/build/cam_subscriber/install.log'
+[5.314s] Invoked command in '/home/april/workAreas/apriltag_ws/src/cam_subscriber' returned '0': AMENT_PREFIX_PATH=/home/april/workAreas/apriltag_ws/install/apriltag_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/april/workAreas/apriltag_ws/install/apriltag_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/april/workAreas/apriltag_ws/install/apriltag_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/april/workAreas/apriltag_ws/build/cam_subscriber/prefix_override:/home/april/workAreas/apriltag_ws/install/cam_subscriber/lib/python3.8/site-packages:/home/april/workAreas/apriltag_ws/install/apriltag_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/cam_subscriber build --build-base /home/april/workAreas/apriltag_ws/build/cam_subscriber/build install --record /home/april/workAreas/apriltag_ws/build/cam_subscriber/install.log --install-scripts $base/lib/cam_subscriber --single-version-externally-managed

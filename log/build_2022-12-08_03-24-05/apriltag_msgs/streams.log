@@ -1,0 +1,13 @@
+[0.209s] Invoking command in '/home/april/workAreas/apriltag_ws/build/apriltag_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/april/workAreas/apriltag_ws/install/py_pysub:/home/april/workAreas/apriltag_ws/install/cam_subscriber:/home/april/rosApril_ws/install/py_pysub:/home/april/rosApril_ws/install/cam_subscriber:/opt/ros/foxy /usr/bin/cmake --build /home/april/workAreas/apriltag_ws/build/apriltag_msgs -- -j4 -l4
+[0.793s] [  2%] Built target apriltag_msgs__cpp
+[0.984s] [ 12%] Built target apriltag_msgs__rosidl_generator_c
+[1.219s] [ 23%] Built target apriltag_msgs__rosidl_typesupport_introspection_cpp
+[1.453s] [ 34%] Built target apriltag_msgs__rosidl_typesupport_introspection_c
+[1.669s] [ 44%] Built target apriltag_msgs__rosidl_typesupport_c
+[2.066s] [ 55%] Built target apriltag_msgs__rosidl_typesupport_fastrtps_cpp
+[2.332s] [ 65%] Built target apriltag_msgs__rosidl_typesupport_cpp
+[2.637s] [ 76%] Built target apriltag_msgs__rosidl_typesupport_fastrtps_c
+[2.771s] make[2]: *** [CMakeFiles/apriltag_msgs.dir/build.make:106: CMakeFiles/apriltag_msgs.dir/depend] Interrupt
+[2.826s] make[1]: *** [CMakeFiles/Makefile2:219: CMakeFiles/apriltag_msgs.dir/all] Interrupt
+[2.828s] make: *** [Makefile:141: all] Interrupt
+[2.829s] Invoked command in '/home/april/workAreas/apriltag_ws/build/apriltag_msgs' returned '-2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/april/workAreas/apriltag_ws/install/py_pysub:/home/april/workAreas/apriltag_ws/install/cam_subscriber:/home/april/rosApril_ws/install/py_pysub:/home/april/rosApril_ws/install/cam_subscriber:/opt/ros/foxy /usr/bin/cmake --build /home/april/workAreas/apriltag_ws/build/apriltag_msgs -- -j4 -l4
